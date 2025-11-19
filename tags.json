@@ -1,0 +1,1742 @@
+[
+  {
+    "id": "1",
+    "label": "Sports",
+    "slug": "sports",
+    "forceShow": false,
+    "publishedAt": "2023-10-24 22:37:50.296+00",
+    "updatedBy": 15,
+    "createdAt": "2023-10-24T22:37:50.31Z",
+    "updatedAt": "2024-07-05T21:07:21.800664Z",
+    "forceHide": true
+  },
+  {
+    "id": "2",
+    "label": "Politics",
+    "slug": "politics",
+    "forceShow": false,
+    "publishedAt": "2023-10-25 18:55:50.674+00",
+    "updatedBy": 13,
+    "createdAt": "2023-10-25T18:55:50.681Z",
+    "updatedAt": "2024-07-05T21:07:05.081707Z",
+    "forceHide": true
+  },
+  {
+    "id": "3",
+    "label": "video games",
+    "slug": "video-games",
+    "publishedAt": "2023-11-02 21:02:48.659+00",
+    "createdAt": "2023-11-02T21:02:48.665Z",
+    "updatedAt": "2023-11-02T21:02:48.665Z"
+  },
+  {
+    "id": "4",
+    "label": "gta 6",
+    "slug": "gta-6",
+    "publishedAt": "2023-11-02 21:02:49.215+00",
+    "createdAt": "2023-11-02T21:02:49.226Z",
+    "updatedAt": "2023-11-02T21:02:49.226Z"
+  },
+  {
+    "id": "5",
+    "label": "release date",
+    "slug": "release-date",
+    "publishedAt": "2023-11-02 21:02:49.635+00",
+    "createdAt": "2023-11-02T21:02:49.644Z",
+    "updatedAt": "2023-11-02T21:02:49.644Z"
+  },
+  {
+    "id": "6",
+    "label": "musk",
+    "slug": "musk",
+    "publishedAt": "2023-11-02 21:02:59.27+00",
+    "createdAt": "2023-11-02T21:02:59.284Z",
+    "updatedAt": "2023-11-02T21:02:59.284Z"
+  },
+  {
+    "id": "7",
+    "label": "zuck",
+    "slug": "zuck",
+    "publishedAt": "2023-11-02 21:02:59.886+00",
+    "createdAt": "2023-11-02T21:02:59.893Z",
+    "updatedAt": "2023-11-02T21:02:59.893Z"
+  },
+  {
+    "id": "8",
+    "label": "future events",
+    "slug": "future-events",
+    "publishedAt": "2023-11-02 21:03:00.521+00",
+    "updatedBy": 13,
+    "createdAt": "2023-11-02T21:03:00.525Z",
+    "updatedAt": "2023-12-07T21:14:22.218Z",
+    "forceHide": true
+  },
+  {
+    "id": "9",
+    "label": "speculation",
+    "slug": "speculation",
+    "publishedAt": "2023-11-02 21:03:00.962+00",
+    "createdAt": "2023-11-02T21:03:00.969Z",
+    "updatedAt": "2023-11-02T21:03:00.969Z"
+  },
+  {
+    "id": "10",
+    "label": "football",
+    "slug": "football",
+    "publishedAt": "2023-11-02 21:03:21.116+00",
+    "updatedBy": 15,
+    "createdAt": "2023-11-02T21:03:21.126Z",
+    "updatedAt": "2024-02-11T18:13:01.331Z",
+    "forceHide": true
+  },
+  {
+    "id": "11",
+    "label": "jets",
+    "slug": "jets",
+    "publishedAt": "2023-11-02 21:03:22.189+00",
+    "createdAt": "2023-11-02T21:03:22.197Z",
+    "updatedAt": "2023-11-02T21:03:22.197Z"
+  },
+  {
+    "id": "12",
+    "label": "chargers",
+    "slug": "chargers",
+    "publishedAt": "2023-11-02 21:03:22.674+00",
+    "createdAt": "2023-11-02T21:03:22.678Z",
+    "updatedAt": "2023-11-02T21:03:22.678Z"
+  },
+  {
+    "id": "13",
+    "label": "texans",
+    "slug": "texans",
+    "publishedAt": "2023-11-02 21:03:30.316+00",
+    "createdAt": "2023-11-02T21:03:30.333Z",
+    "updatedAt": "2023-11-02T21:03:30.333Z"
+  },
+  {
+    "id": "14",
+    "label": "buccaneers",
+    "slug": "buccaneers",
+    "publishedAt": "2023-11-02 21:03:31.086+00",
+    "createdAt": "2023-11-02T21:03:31.1Z",
+    "updatedAt": "2023-11-02T21:03:31.1Z"
+  },
+  {
+    "id": "15",
+    "label": "Joe Biden",
+    "slug": "joe-biden",
+    "forceShow": false,
+    "publishedAt": "2023-11-02 21:03:39.389+00",
+    "updatedBy": 15,
+    "createdAt": "2023-11-02T21:03:39.396Z",
+    "updatedAt": "2024-04-24T19:34:18.314621Z"
+  },
+  {
+    "id": "16",
+    "label": "time magazine",
+    "slug": "time-magazine",
+    "publishedAt": "2023-11-02 21:03:40.48+00",
+    "createdAt": "2023-11-02T21:03:40.485Z",
+    "updatedAt": "2023-11-02T21:03:40.485Z"
+  },
+  {
+    "id": "17",
+    "label": "person of the year",
+    "slug": "person-of-the-year",
+    "publishedAt": "2023-11-02 21:03:41.132+00",
+    "createdAt": "2023-11-02T21:03:41.137Z",
+    "updatedAt": "2023-11-02T21:03:41.137Z"
+  },
+  {
+    "id": "18",
+    "label": "Awards",
+    "slug": "awards",
+    "forceShow": false,
+    "publishedAt": "2023-11-02 21:03:41.709+00",
+    "createdAt": "2023-11-02T21:03:41.713Z",
+    "updatedAt": "2025-02-04T22:36:55.03798Z"
+  },
+  {
+    "id": "19",
+    "label": "Ethereum Dencun",
+    "slug": "ethereum-dencun",
+    "forceShow": false,
+    "publishedAt": "2023-11-02 21:03:52.819+00",
+    "updatedBy": 15,
+    "createdAt": "2023-11-02T21:03:52.824Z",
+    "updatedAt": "2024-03-14T21:39:25.788108Z"
+  },
+  {
+    "id": "20",
+    "label": "blockchain",
+    "slug": "blockchain",
+    "publishedAt": "2023-11-02 21:03:53.702+00",
+    "createdAt": "2023-11-02T21:03:53.72Z",
+    "updatedAt": "2023-11-02T21:03:53.72Z"
+  },
+  {
+    "id": "21",
+    "label": "Crypto",
+    "slug": "crypto",
+    "forceShow": false,
+    "publishedAt": "2023-11-02 21:03:54.55+00",
+    "updatedBy": 15,
+    "createdAt": "2023-11-02T21:03:54.564Z",
+    "updatedAt": "2024-07-05T21:07:09.171822Z"
+  },
+  {
+    "id": "22",
+    "label": "technology",
+    "slug": "technology",
+    "publishedAt": "2023-11-02 21:03:55.067+00",
+    "createdAt": "2023-11-02T21:03:55.073Z",
+    "updatedAt": "2023-11-02T21:03:55.073Z"
+  },
+  {
+    "id": "24",
+    "label": "USA Election",
+    "slug": "us-election",
+    "forceShow": true,
+    "publishedAt": "2023-11-02 21:04:03.712+00",
+    "updatedBy": 15,
+    "createdAt": "2023-11-02T21:04:03.723Z",
+    "updatedAt": "2024-11-05T01:20:53.70442Z"
+  },
+  {
+    "id": "25",
+    "label": "tim scott",
+    "slug": "tim-scott",
+    "publishedAt": "2023-11-02 21:04:04.398+00",
+    "createdAt": "2023-11-02T21:04:04.401Z",
+    "updatedAt": "2023-11-02T21:04:04.401Z"
+  },
+  {
+    "id": "26",
+    "label": "republican party",
+    "slug": "republican-party",
+    "publishedAt": "2023-11-02 21:04:05.072+00",
+    "createdAt": "2023-11-02T21:04:05.078Z",
+    "updatedAt": "2023-11-02T21:04:05.078Z"
+  },
+  {
+    "id": "27",
+    "label": "vice presidential nomination",
+    "slug": "vice-presidential-nomination",
+    "publishedAt": "2023-11-02 21:04:05.645+00",
+    "createdAt": "2023-11-02T21:04:05.649Z",
+    "updatedAt": "2023-11-02T21:04:05.649Z"
+  },
+  {
+    "id": "28",
+    "label": "Basketball",
+    "slug": "basketball",
+    "forceShow": false,
+    "publishedAt": "2023-11-02 21:04:25.152+00",
+    "createdAt": "2023-11-02T21:04:25.158Z",
+    "updatedAt": "2024-07-26T21:06:45.637044Z"
+  },
+  {
+    "id": "29",
+    "label": "pelicans",
+    "slug": "pelicans",
+    "publishedAt": "2023-11-02 21:04:25.749+00",
+    "createdAt": "2023-11-02T21:04:25.754Z",
+    "updatedAt": "2023-11-02T21:04:25.754Z"
+  },
+  {
+    "id": "30",
+    "label": "pistons",
+    "slug": "pistons",
+    "publishedAt": "2023-11-02 21:04:26.578+00",
+    "createdAt": "2023-11-02T21:04:26.584Z",
+    "updatedAt": "2023-11-02T21:04:26.584Z"
+  },
+  {
+    "id": "31",
+    "label": "thunder",
+    "slug": "thunder",
+    "publishedAt": "2023-11-02 21:04:37.119+00",
+    "createdAt": "2023-11-02T21:04:37.125Z",
+    "updatedAt": "2023-11-02T21:04:37.125Z"
+  },
+  {
+    "id": "32",
+    "label": "warriors",
+    "slug": "warriors",
+    "publishedAt": "2023-11-02 21:04:37.826+00",
+    "createdAt": "2023-11-02T21:04:37.83Z",
+    "updatedAt": "2023-11-02T21:04:37.83Z"
+  },
+  {
+    "id": "33",
+    "label": "knicks",
+    "slug": "knicks",
+    "publishedAt": "2023-11-02 21:04:46.389+00",
+    "createdAt": "2023-11-02T21:04:46.393Z",
+    "updatedAt": "2023-11-02T21:04:46.393Z"
+  },
+  {
+    "id": "34",
+    "label": "clippers",
+    "slug": "clippers",
+    "publishedAt": "2023-11-02 21:04:46.867+00",
+    "createdAt": "2023-11-02T21:04:46.872Z",
+    "updatedAt": "2023-11-02T21:04:46.872Z"
+  },
+  {
+    "id": "35",
+    "label": "bucks",
+    "slug": "bucks",
+    "publishedAt": "2023-11-02 21:04:56.937+00",
+    "createdAt": "2023-11-02T21:04:56.971Z",
+    "updatedAt": "2023-11-02T21:04:56.971Z"
+  },
+  {
+    "id": "36",
+    "label": "gaming",
+    "slug": "gaming",
+    "publishedAt": "2023-11-02 21:07:10.779+00",
+    "createdAt": "2023-11-02T21:07:10.793Z",
+    "updatedAt": "2023-11-02T21:07:10.793Z"
+  },
+  {
+    "id": "37",
+    "label": "celebrity events",
+    "slug": "celebrity-events",
+    "publishedAt": "2023-11-02 21:07:34.577+00",
+    "createdAt": "2023-11-02T21:07:34.605Z",
+    "updatedAt": "2023-11-02T21:07:34.605Z"
+  },
+  {
+    "id": "38",
+    "label": "news",
+    "slug": "news",
+    "publishedAt": "2023-11-02 21:08:04.753+00",
+    "createdAt": "2023-11-02T21:08:04.76Z",
+    "updatedAt": "2023-11-02T21:08:04.76Z"
+  },
+  {
+    "id": "39",
+    "label": "Ethereum",
+    "slug": "ethereum",
+    "forceShow": false,
+    "publishedAt": "2023-11-02 21:08:15.934+00",
+    "updatedBy": 15,
+    "createdAt": "2023-11-02T21:08:15.95Z",
+    "updatedAt": "2024-05-30T16:05:21.531499Z",
+    "forceHide": false
+  },
+  {
+    "id": "40",
+    "label": "2024 elections",
+    "slug": "2024-elections",
+    "publishedAt": "2023-11-02 21:08:43.313+00",
+    "createdAt": "2023-11-02T21:08:43.318Z",
+    "updatedAt": "2023-11-02T21:08:43.318Z"
+  },
+  {
+    "id": "41",
+    "label": "predictions",
+    "slug": "predictions",
+    "publishedAt": "2023-11-02 21:11:09.19+00",
+    "updatedBy": 13,
+    "createdAt": "2023-11-02T21:11:09.194Z",
+    "updatedAt": "2023-12-07T21:16:16.554Z",
+    "forceHide": true
+  },
+  {
+    "id": "42",
+    "label": "software updates",
+    "slug": "software-updates",
+    "publishedAt": "2023-11-02 21:11:52.684+00",
+    "createdAt": "2023-11-02T21:11:52.696Z",
+    "updatedAt": "2023-11-02T21:11:52.696Z"
+  },
+  {
+    "id": "43",
+    "label": "76ers",
+    "slug": "76ers",
+    "publishedAt": "2023-11-02 21:13:39.581+00",
+    "createdAt": "2023-11-02T21:13:39.598Z",
+    "updatedAt": "2023-11-02T21:13:39.598Z"
+  },
+  {
+    "id": "44",
+    "label": "wizards",
+    "slug": "wizards",
+    "publishedAt": "2023-11-02 21:13:40.361+00",
+    "createdAt": "2023-11-02T21:13:40.402Z",
+    "updatedAt": "2023-11-02T21:13:40.402Z"
+  },
+  {
+    "id": "45",
+    "label": "trail blazers",
+    "slug": "trail-blazers",
+    "publishedAt": "2023-11-02 21:13:49.657+00",
+    "createdAt": "2023-11-02T21:13:49.664Z",
+    "updatedAt": "2023-11-02T21:13:49.664Z"
+  },
+  {
+    "id": "46",
+    "label": "grizzlies",
+    "slug": "grizzlies",
+    "publishedAt": "2023-11-02 21:13:50.363+00",
+    "createdAt": "2023-11-02T21:13:50.379Z",
+    "updatedAt": "2023-11-02T21:13:50.379Z"
+  },
+  {
+    "id": "47",
+    "label": "aaron rodgers",
+    "slug": "aaron-rodgers",
+    "publishedAt": "2023-11-02 21:14:20.72+00",
+    "createdAt": "2023-11-02T21:14:20.733Z",
+    "updatedAt": "2023-11-02T21:14:20.733Z"
+  },
+  {
+    "id": "48",
+    "label": "rockets",
+    "slug": "rockets",
+    "publishedAt": "2023-11-02 21:14:29.638+00",
+    "createdAt": "2023-11-02T21:14:29.656Z",
+    "updatedAt": "2023-11-02T21:14:29.656Z"
+  },
+  {
+    "id": "49",
+    "label": "kings",
+    "slug": "kings",
+    "publishedAt": "2023-11-02 21:14:30.371+00",
+    "createdAt": "2023-11-02T21:14:30.379Z",
+    "updatedAt": "2023-11-02T21:14:30.379Z"
+  },
+  {
+    "id": "50",
+    "label": "the marvels",
+    "slug": "the-marvels",
+    "publishedAt": "2023-11-02 21:14:37.689+00",
+    "createdAt": "2023-11-02T21:14:37.697Z",
+    "updatedAt": "2023-11-02T21:14:37.697Z"
+  },
+  {
+    "id": "51",
+    "label": "box office",
+    "slug": "box-office",
+    "forceShow": false,
+    "publishedAt": "2023-11-02 21:14:38.309+00",
+    "updatedBy": 15,
+    "createdAt": "2023-11-02T21:14:38.316Z",
+    "updatedAt": "2024-03-09T07:27:10.66Z"
+  },
+  {
+    "id": "52",
+    "label": "film industry",
+    "slug": "film-industry",
+    "publishedAt": "2023-11-02 21:14:38.92+00",
+    "createdAt": "2023-11-02T21:14:38.925Z",
+    "updatedAt": "2023-11-02T21:14:38.925Z"
+  },
+  {
+    "id": "53",
+    "label": "Movies",
+    "slug": "movies",
+    "forceShow": true,
+    "publishedAt": "2023-11-02 21:14:39.573+00",
+    "createdAt": "2023-11-02T21:14:39.577Z",
+    "updatedAt": "2024-05-08T22:11:38.167995Z"
+  },
+  {
+    "id": "54",
+    "label": "raptors",
+    "slug": "raptors",
+    "publishedAt": "2023-11-02 21:14:50.093+00",
+    "createdAt": "2023-11-02T21:14:50.105Z",
+    "updatedAt": "2023-11-02T21:14:50.105Z"
+  },
+  {
+    "id": "55",
+    "label": "vivek ramaswamy",
+    "slug": "vivek-ramaswamy",
+    "publishedAt": "2023-11-02 21:15:02.18+00",
+    "updatedBy": 15,
+    "createdAt": "2023-11-02T21:15:02.185Z",
+    "updatedAt": "2024-02-11T18:05:57.95Z",
+    "forceHide": true
+  },
+  {
+    "id": "56",
+    "label": "republicans",
+    "slug": "republicans",
+    "publishedAt": "2023-11-02 21:15:02.991+00",
+    "createdAt": "2023-11-02T21:15:03.063Z",
+    "updatedAt": "2023-11-02T21:15:03.063Z"
+  },
+  {
+    "id": "57",
+    "label": "2024 presidential election",
+    "slug": "2024-presidential-election",
+    "forceShow": false,
+    "publishedAt": "2023-11-02 21:15:04.115+00",
+    "updatedBy": 15,
+    "createdAt": "2023-11-02T21:15:04.125Z",
+    "updatedAt": "2024-02-17T20:40:06.825Z",
+    "forceHide": true
+  },
+  {
+    "id": "58",
+    "label": "nuggets",
+    "slug": "nuggets",
+    "publishedAt": "2023-11-02 21:15:12.646+00",
+    "createdAt": "2023-11-02T21:15:12.651Z",
+    "updatedAt": "2023-11-02T21:15:12.651Z"
+  },
+  {
+    "id": "59",
+    "label": "bulls",
+    "slug": "bulls",
+    "publishedAt": "2023-11-02 21:15:13.478+00",
+    "createdAt": "2023-11-02T21:15:13.483Z",
+    "updatedAt": "2023-11-02T21:15:13.483Z"
+  },
+  {
+    "id": "60",
+    "label": "starlink",
+    "slug": "starlink",
+    "publishedAt": "2023-11-02 21:15:20.498+00",
+    "createdAt": "2023-11-02T21:15:20.505Z",
+    "updatedAt": "2023-11-02T21:15:20.505Z"
+  },
+  {
+    "id": "61",
+    "label": "Gaza",
+    "slug": "gaza",
+    "forceShow": false,
+    "publishedAt": "2023-11-02 21:15:21.229+00",
+    "updatedBy": 15,
+    "createdAt": "2023-11-02T21:15:21.233Z",
+    "updatedAt": "2024-04-18T21:46:08.659396Z"
+  },
+  {
+    "id": "62",
+    "label": "satellite internet",
+    "slug": "satellite-internet",
+    "publishedAt": "2023-11-02 21:15:22.6+00",
+    "createdAt": "2023-11-02T21:15:22.605Z",
+    "updatedAt": "2023-11-02T21:15:22.605Z"
+  },
+  {
+    "id": "63",
+    "label": "SpaceX",
+    "slug": "spacex",
+    "forceShow": false,
+    "publishedAt": "2023-11-02 21:15:23.311+00",
+    "createdAt": "2023-11-02T21:15:23.316Z",
+    "updatedAt": "2024-05-31T15:07:52.587175Z"
+  },
+  {
+    "id": "64",
+    "label": "Esports",
+    "slug": "esports",
+    "forceShow": false,
+    "publishedAt": "2023-11-02 21:15:31.924+00",
+    "createdAt": "2023-11-02T21:15:31.93Z",
+    "updatedAt": "2024-09-12T22:37:08.256178Z"
+  },
+  {
+    "id": "65",
+    "label": "league of legends",
+    "slug": "league-of-legends",
+    "publishedAt": "2023-11-02 21:15:32.598+00",
+    "createdAt": "2023-11-02T21:15:32.602Z",
+    "updatedAt": "2023-11-02T21:15:32.602Z"
+  },
+  {
+    "id": "66",
+    "label": "north america",
+    "slug": "north-america",
+    "publishedAt": "2023-11-02 21:15:33.309+00",
+    "createdAt": "2023-11-02T21:15:33.337Z",
+    "updatedAt": "2023-11-02T21:15:33.337Z"
+  },
+  {
+    "id": "67",
+    "label": "lol worlds 2023",
+    "slug": "lol-worlds-2023",
+    "publishedAt": "2023-11-02 21:15:34.07+00",
+    "createdAt": "2023-11-02T21:15:34.076Z",
+    "updatedAt": "2023-11-02T21:15:34.076Z"
+  },
+  {
+    "id": "68",
+    "label": "uaw",
+    "slug": "uaw",
+    "publishedAt": "2023-11-02 21:15:41.415+00",
+    "createdAt": "2023-11-02T21:15:41.423Z",
+    "updatedAt": "2023-11-02T21:15:41.423Z"
+  },
+  {
+    "id": "69",
+    "label": "strike",
+    "slug": "strike",
+    "publishedAt": "2023-11-02 21:15:42.091+00",
+    "createdAt": "2023-11-02T21:15:42.099Z",
+    "updatedAt": "2023-11-02T21:15:42.099Z"
+  },
+  {
+    "id": "70",
+    "label": "labor unions",
+    "slug": "labor-unions",
+    "publishedAt": "2023-11-02 21:15:42.684+00",
+    "createdAt": "2023-11-02T21:15:42.696Z",
+    "updatedAt": "2023-11-02T21:15:42.696Z"
+  },
+  {
+    "id": "71",
+    "label": "aliens",
+    "slug": "aliens",
+    "publishedAt": "2023-11-02 21:16:18.133+00",
+    "createdAt": "2023-11-02T21:16:18.145Z",
+    "updatedAt": "2023-11-02T21:16:18.145Z"
+  },
+  {
+    "id": "72",
+    "label": "extraterrestrial life",
+    "slug": "extraterrestrial-life",
+    "publishedAt": "2023-11-02 21:16:18.953+00",
+    "createdAt": "2023-11-02T21:16:18.973Z",
+    "updatedAt": "2023-11-02T21:16:18.973Z"
+  },
+  {
+    "id": "73",
+    "label": "future predictions",
+    "slug": "future-predictions",
+    "publishedAt": "2023-11-02 21:16:19.621+00",
+    "updatedBy": 13,
+    "createdAt": "2023-11-02T21:16:19.645Z",
+    "updatedAt": "2023-12-07T21:15:09.877Z",
+    "forceHide": true
+  },
+  {
+    "id": "74",
+    "label": "Science",
+    "slug": "science",
+    "forceShow": false,
+    "publishedAt": "2023-11-02 21:16:20.623+00",
+    "updatedBy": 13,
+    "createdAt": "2023-11-02T21:16:20.826Z",
+    "updatedAt": "2024-07-05T21:07:27.856106Z",
+    "forceHide": true
+  },
+  {
+    "id": "75",
+    "label": "space exploration",
+    "slug": "space-exploration",
+    "publishedAt": "2023-11-02 21:16:21.696+00",
+    "createdAt": "2023-11-02T21:16:21.714Z",
+    "updatedAt": "2023-11-02T21:16:21.714Z"
+  },
+  {
+    "id": "76",
+    "label": "suns",
+    "slug": "suns",
+    "publishedAt": "2023-11-02 21:16:32.964+00",
+    "createdAt": "2023-11-02T21:16:32.968Z",
+    "updatedAt": "2023-11-02T21:16:32.968Z"
+  },
+  {
+    "id": "77",
+    "label": "mavericks",
+    "slug": "mavericks",
+    "publishedAt": "2023-11-02 21:16:42.929+00",
+    "createdAt": "2023-11-02T21:16:43.217Z",
+    "updatedAt": "2023-11-02T21:16:43.217Z"
+  },
+  {
+    "id": "78",
+    "label": "Iran",
+    "slug": "iran",
+    "forceShow": false,
+    "publishedAt": "2023-11-02 21:16:51.647+00",
+    "updatedBy": 15,
+    "createdAt": "2023-11-02T21:16:51.667Z",
+    "updatedAt": "2024-04-17T21:51:13.059905Z"
+  },
+  {
+    "id": "79",
+    "label": "war",
+    "slug": "war",
+    "publishedAt": "2023-11-02 21:17:06.477+00",
+    "updatedBy": 13,
+    "createdAt": "2023-11-02T21:17:06.518Z",
+    "updatedAt": "2023-12-07T21:14:55.975Z",
+    "forceHide": true
+  },
+  {
+    "id": "80",
+    "label": "international relations",
+    "slug": "international-relations",
+    "publishedAt": "2023-11-02 21:17:07.976+00",
+    "createdAt": "2023-11-02T21:17:07.996Z",
+    "updatedAt": "2023-11-02T21:17:07.996Z"
+  },
+  {
+    "id": "81",
+    "label": "haaland",
+    "slug": "haaland",
+    "publishedAt": "2023-11-02 21:17:20.879+00",
+    "createdAt": "2023-11-02T21:17:20.904Z",
+    "updatedAt": "2023-11-02T21:17:20.904Z"
+  },
+  {
+    "id": "82",
+    "label": "Premier League",
+    "slug": "premier-league",
+    "forceShow": false,
+    "publishedAt": "2023-11-02 21:17:21.654+00",
+    "createdAt": "2023-11-02T21:17:21.66Z",
+    "updatedAt": "2024-05-30T15:35:46.912519Z"
+  },
+  {
+    "id": "83",
+    "label": "records",
+    "slug": "records",
+    "publishedAt": "2023-11-02 21:17:22.376+00",
+    "updatedBy": 15,
+    "createdAt": "2023-11-02T21:17:22.392Z",
+    "updatedAt": "2024-01-22T19:36:31.342Z",
+    "forceHide": true
+  },
+  {
+    "id": "84",
+    "label": "Weather",
+    "slug": "weather",
+    "forceShow": false,
+    "publishedAt": "2023-11-02 21:17:34.81+00",
+    "createdAt": "2023-11-02T21:17:34.814Z",
+    "updatedAt": "2025-01-07T21:00:18.163528Z"
+  },
+  {
+    "id": "85",
+    "label": "Hurricanes",
+    "slug": "hurricanes",
+    "forceShow": false,
+    "publishedAt": "2023-11-02 21:17:36.283+00",
+    "createdAt": "2023-11-02T21:17:36.304Z",
+    "updatedAt": "2024-05-31T15:07:29.134646Z"
+  },
+  {
+    "id": "86",
+    "label": "us",
+    "slug": "us",
+    "publishedAt": "2023-11-02 21:17:37.418+00",
+    "updatedBy": 15,
+    "createdAt": "2023-11-02T21:17:37.44Z",
+    "updatedAt": "2024-01-12T00:46:41.974Z",
+    "forceHide": true
+  },
+  {
+    "id": "87",
+    "label": "climate",
+    "slug": "climate",
+    "publishedAt": "2023-11-02 21:17:38.407+00",
+    "createdAt": "2023-11-02T21:17:38.424Z",
+    "updatedAt": "2023-11-02T21:17:38.424Z"
+  },
+  {
+    "id": "88",
+    "label": "steelers",
+    "slug": "steelers",
+    "publishedAt": "2023-11-02 21:18:10.106+00",
+    "createdAt": "2023-11-02T21:18:10.113Z",
+    "updatedAt": "2023-11-02T21:18:10.113Z"
+  },
+  {
+    "id": "89",
+    "label": "titans",
+    "slug": "titans",
+    "publishedAt": "2023-11-02 21:18:10.7+00",
+    "createdAt": "2023-11-02T21:18:10.704Z",
+    "updatedAt": "2023-11-02T21:18:10.704Z"
+  },
+  {
+    "id": "90",
+    "label": "nuclear weapons",
+    "slug": "nuclear-weapons",
+    "publishedAt": "2023-11-02 21:18:18.331+00",
+    "updatedBy": 13,
+    "createdAt": "2023-11-02T21:18:18.35Z",
+    "updatedAt": "2023-12-07T21:15:48.399Z",
+    "forceHide": true
+  },
+  {
+    "id": "91",
+    "label": "security",
+    "slug": "security",
+    "publishedAt": "2023-11-02 21:18:19.956+00",
+    "updatedBy": 13,
+    "createdAt": "2023-11-02T21:18:19.972Z",
+    "updatedAt": "2023-12-07T21:16:04.346Z",
+    "forceHide": true
+  },
+  {
+    "id": "92",
+    "label": "global warming",
+    "slug": "global-warming",
+    "publishedAt": "2023-11-02 21:18:29.845+00",
+    "updatedBy": 15,
+    "createdAt": "2023-11-02T21:18:29.861Z",
+    "updatedAt": "2024-03-07T22:26:55.81Z",
+    "forceHide": true
+  },
+  {
+    "id": "93",
+    "label": "Prediction Markets",
+    "slug": "prediction-markets",
+    "forceShow": false,
+    "publishedAt": "2023-11-02 21:18:32.135+00",
+    "updatedBy": 15,
+    "createdAt": "2023-11-02T21:18:32.142Z",
+    "updatedAt": "2025-10-09T16:07:55.75404Z",
+    "forceHide": true,
+    "isCarousel": false
+  },
+  {
+    "id": "94",
+    "label": "hornets",
+    "slug": "hornets",
+    "publishedAt": "2023-11-02 21:18:42.334+00",
+    "createdAt": "2023-11-02T21:18:42.365Z",
+    "updatedAt": "2023-11-02T21:18:42.365Z"
+  },
+  {
+    "id": "95",
+    "label": "russia",
+    "slug": "russia",
+    "publishedAt": "2023-11-02 21:18:49.314+00",
+    "createdAt": "2023-11-02T21:18:49.32Z",
+    "updatedAt": "2023-11-02T21:18:49.32Z"
+  },
+  {
+    "id": "96",
+    "label": "Ukraine",
+    "slug": "ukraine",
+    "forceShow": false,
+    "publishedAt": "2023-11-02 21:18:49.922+00",
+    "updatedBy": 15,
+    "createdAt": "2023-11-02T21:18:49.94Z",
+    "updatedAt": "2024-05-31T01:11:39.310878Z"
+  },
+  {
+    "id": "97",
+    "label": "peace agreements",
+    "slug": "peace-agreements",
+    "publishedAt": "2023-11-02 21:19:00.24+00",
+    "createdAt": "2023-11-02T21:19:00.261Z",
+    "updatedAt": "2023-11-02T21:19:00.261Z"
+  },
+  {
+    "id": "98",
+    "label": "tucker carlson",
+    "slug": "tucker-carlson",
+    "forceShow": false,
+    "publishedAt": "2023-11-02 21:19:10.299+00",
+    "updatedBy": 15,
+    "createdAt": "2023-11-02T21:19:10.313Z",
+    "updatedAt": "2024-02-09T17:45:59.088Z"
+  },
+  {
+    "id": "99",
+    "label": "u.s. 2024 elections",
+    "slug": "uptspt-2024-elections",
+    "publishedAt": "2023-11-02 21:19:11.036+00",
+    "createdAt": "2023-11-02T21:19:11.042Z",
+    "updatedAt": "2023-11-02T21:19:11.042Z"
+  },
+  {
+    "id": "100",
+    "label": "Music",
+    "slug": "music",
+    "forceShow": false,
+    "publishedAt": "2023-11-02 21:19:29.061+00",
+    "createdAt": "2023-11-02T21:19:29.066Z",
+    "updatedAt": "2024-05-31T04:59:37.52652Z"
+  },
+  {
+    "id": "352",
+    "label": "packers",
+    "slug": "packers",
+    "publishedAt": "2023-11-02 22:01:17.708+00",
+    "createdAt": "2023-11-02T22:01:17.721Z",
+    "updatedAt": "2023-11-02T22:01:17.721Z"
+  },
+  {
+    "id": "356",
+    "label": "laphonza butler",
+    "slug": "laphonza-butler",
+    "publishedAt": "2023-11-02 22:02:26.63+00",
+    "createdAt": "2023-11-02T22:02:26.651Z",
+    "updatedAt": "2023-11-02T22:02:26.651Z"
+  },
+  {
+    "id": "360",
+    "label": "robert f. kennedy jr.",
+    "slug": "robert-fpt-kennedy-jrpt",
+    "publishedAt": "2023-11-02 22:04:07.269+00",
+    "createdAt": "2023-11-02T22:04:07.284Z",
+    "updatedAt": "2023-11-02T22:04:07.284Z"
+  },
+  {
+    "id": "381",
+    "label": "2024 ca senate primary",
+    "slug": "2024-ca-senate-primary",
+    "publishedAt": "2023-11-02 22:09:04.465+00",
+    "createdAt": "2023-11-02T22:09:04.504Z",
+    "updatedAt": "2023-11-02T22:09:04.504Z"
+  },
+  {
+    "id": "382",
+    "label": "chris christie",
+    "slug": "chris-christie",
+    "publishedAt": "2023-11-02 22:09:15.517+00",
+    "createdAt": "2023-11-02T22:09:15.535Z",
+    "updatedAt": "2023-11-02T22:09:15.535Z"
+  },
+  {
+    "id": "384",
+    "label": "seahawks",
+    "slug": "seahawks",
+    "publishedAt": "2023-11-02 22:09:58.239+00",
+    "createdAt": "2023-11-02T22:09:58.271Z",
+    "updatedAt": "2023-11-02T22:09:58.271Z"
+  },
+  {
+    "id": "385",
+    "label": "salah",
+    "slug": "salah",
+    "publishedAt": "2023-11-02 22:10:22.134+00",
+    "createdAt": "2023-11-02T22:10:22.145Z",
+    "updatedAt": "2023-11-02T22:10:22.145Z"
+  },
+  {
+    "id": "386",
+    "label": "transfer window",
+    "slug": "transfer-window",
+    "publishedAt": "2023-11-02 22:10:38.106+00",
+    "createdAt": "2023-11-02T22:10:38.124Z",
+    "updatedAt": "2023-11-02T22:10:38.124Z"
+  },
+  {
+    "id": "387",
+    "label": "saudi club",
+    "slug": "saudi-club",
+    "publishedAt": "2023-11-02 22:10:39.386+00",
+    "createdAt": "2023-11-02T22:10:39.394Z",
+    "updatedAt": "2023-11-02T22:10:39.394Z"
+  },
+  {
+    "id": "388",
+    "label": "netanyahu",
+    "slug": "netanyahu",
+    "publishedAt": "2023-11-02 22:11:03.352+00",
+    "createdAt": "2023-11-02T22:11:03.357Z",
+    "updatedAt": "2023-11-02T22:11:03.357Z"
+  },
+  {
+    "id": "389",
+    "label": "prime minister",
+    "slug": "prime-minister",
+    "publishedAt": "2023-11-02 22:11:04.772+00",
+    "createdAt": "2023-11-02T22:11:04.783Z",
+    "updatedAt": "2023-11-02T22:11:04.783Z"
+  },
+  {
+    "id": "390",
+    "label": "moon landing",
+    "slug": "moon-landing",
+    "publishedAt": "2023-11-02 22:11:39.902+00",
+    "createdAt": "2023-11-02T22:11:39.919Z",
+    "updatedAt": "2023-11-02T22:11:39.919Z"
+  },
+  {
+    "id": "432",
+    "label": "mike pence",
+    "slug": "mike-pence",
+    "publishedAt": "2023-11-02 23:06:49.798+00",
+    "createdAt": "2023-11-02T23:06:49.818Z",
+    "updatedAt": "2023-11-02T23:06:49.818Z"
+  },
+  {
+    "id": "435",
+    "label": "Formula 1",
+    "slug": "formula1",
+    "forceShow": false,
+    "publishedAt": "2023-11-02 23:07:46.275+00",
+    "createdAt": "2023-11-02T23:07:46.289Z",
+    "updatedAt": "2024-07-09T19:49:32.871171Z"
+  },
+  {
+    "id": "436",
+    "label": "aston martin",
+    "slug": "aston-martin",
+    "publishedAt": "2023-11-02 23:07:47.954+00",
+    "createdAt": "2023-11-02T23:07:47.97Z",
+    "updatedAt": "2023-11-02T23:07:47.97Z"
+  },
+  {
+    "id": "438",
+    "label": "mitch mcconnell",
+    "slug": "mitch-mcconnell",
+    "publishedAt": "2023-11-02 23:08:01.175+00",
+    "createdAt": "2023-11-02T23:08:01.191Z",
+    "updatedAt": "2023-11-02T23:08:01.191Z"
+  },
+  {
+    "id": "440",
+    "label": "gpt-4",
+    "slug": "gpt-4",
+    "publishedAt": "2023-11-02 23:08:34.36+00",
+    "createdAt": "2023-11-02T23:08:34.379Z",
+    "updatedAt": "2023-11-02T23:08:34.379Z"
+  },
+  {
+    "id": "462",
+    "label": "virginia",
+    "slug": "virginia",
+    "publishedAt": "2023-11-06 16:18:54.625+00",
+    "createdAt": "2023-11-06T16:18:54.639Z",
+    "updatedAt": "2023-11-06T16:18:54.639Z"
+  },
+  {
+    "id": "465",
+    "label": "primary debate",
+    "slug": "primary-debate",
+    "publishedAt": "2023-11-07 16:07:04.013+00",
+    "createdAt": "2023-11-07T16:07:04.033Z",
+    "updatedAt": "2023-11-07T16:07:04.033Z"
+  },
+  {
+    "id": "466",
+    "label": "RNC",
+    "slug": "rnc",
+    "forceShow": false,
+    "publishedAt": "2023-11-07 16:07:03.97+00",
+    "createdAt": "2023-11-07T16:07:04.309Z",
+    "updatedAt": "2024-07-14T19:38:46.739775Z"
+  },
+  {
+    "id": "468",
+    "label": "rnc primary debate",
+    "slug": "rnc-primary-debate",
+    "publishedAt": "2023-11-07 16:07:20.52+00",
+    "createdAt": "2023-11-07T16:07:20.529Z",
+    "updatedAt": "2023-11-07T16:07:20.529Z"
+  },
+  {
+    "id": "491",
+    "label": "censure",
+    "slug": "censure",
+    "publishedAt": "2023-11-12 21:13:32.328+00",
+    "createdAt": "2023-11-12T21:13:32.344Z",
+    "updatedAt": "2023-11-12T21:13:32.344Z"
+  },
+  {
+    "id": "492",
+    "label": "geology",
+    "slug": "geology",
+    "publishedAt": "2023-11-13 16:11:34.814+00",
+    "createdAt": "2023-11-13T16:11:34.872Z",
+    "updatedAt": "2023-11-13T16:11:34.872Z"
+  },
+  {
+    "id": "494",
+    "label": "eruption",
+    "slug": "eruption",
+    "publishedAt": "2023-11-13 16:11:37.248+00",
+    "createdAt": "2023-11-13T16:11:37.263Z",
+    "updatedAt": "2023-11-13T16:11:37.263Z"
+  },
+  {
+    "id": "495",
+    "label": "volcano",
+    "slug": "volcano",
+    "publishedAt": "2023-11-13 16:11:37.565+00",
+    "createdAt": "2023-11-13T16:11:37.59Z",
+    "updatedAt": "2023-11-13T16:11:37.59Z"
+  },
+  {
+    "id": "498",
+    "label": "the hunger games",
+    "slug": "the-hunger-games",
+    "publishedAt": "2023-11-13 21:31:53.421+00",
+    "createdAt": "2023-11-13T21:31:53.439Z",
+    "updatedAt": "2023-11-13T21:31:53.439Z"
+  },
+  {
+    "id": "499",
+    "label": "the ballad of songbirds & snakes",
+    "slug": "the-ballad-of-songbirds-snakes",
+    "publishedAt": "2023-11-13 21:32:03.922+00",
+    "createdAt": "2023-11-13T21:32:03.935Z",
+    "updatedAt": "2023-11-13T21:32:03.935Z"
+  },
+  {
+    "id": "500",
+    "label": "space travel",
+    "slug": "space-travel",
+    "publishedAt": "2023-11-14 15:47:25.876+00",
+    "createdAt": "2023-11-14T15:47:25.891Z",
+    "updatedAt": "2023-11-14T15:47:25.891Z"
+  },
+  {
+    "id": "522",
+    "label": "snoop",
+    "slug": "snoop",
+    "publishedAt": "2023-11-16 17:49:21.364+00",
+    "createdAt": "2023-11-16T17:49:21.39Z",
+    "updatedAt": "2023-11-16T17:49:21.39Z"
+  },
+  {
+    "id": "525",
+    "label": "Netherlands",
+    "slug": "netherlands",
+    "forceShow": false,
+    "publishedAt": "2023-11-16 23:13:33.526+00",
+    "createdAt": "2023-11-16T23:13:33.561Z",
+    "updatedAt": "2025-09-03T02:14:35.470524Z",
+    "isCarousel": false
+  },
+  {
+    "id": "526",
+    "label": "nsc",
+    "slug": "nsc",
+    "publishedAt": "2023-11-16 23:13:44.485+00",
+    "createdAt": "2023-11-16T23:13:44.498Z",
+    "updatedAt": "2023-11-16T23:13:44.498Z"
+  },
+  {
+    "id": "528",
+    "label": "pvv",
+    "slug": "pvv",
+    "publishedAt": "2023-11-17 16:45:05.617+00",
+    "createdAt": "2023-11-17T16:45:05.634Z",
+    "updatedAt": "2023-11-17T16:45:05.634Z"
+  },
+  {
+    "id": "530",
+    "label": "TikTok",
+    "slug": "tiktok",
+    "forceShow": false,
+    "publishedAt": "2023-11-17 18:59:18.455+00",
+    "createdAt": "2023-11-17T18:59:18.468Z",
+    "updatedAt": "2024-03-20T22:57:58.690764Z"
+  },
+  {
+    "id": "561",
+    "label": "peace",
+    "slug": "peace",
+    "publishedAt": "2023-11-22 20:21:07.29+00",
+    "createdAt": "2023-11-22T20:21:07.306Z",
+    "updatedAt": "2023-11-22T20:21:07.306Z"
+  },
+  {
+    "id": "562",
+    "label": "season 3",
+    "slug": "season-3",
+    "publishedAt": "2023-11-22 20:33:01.521+00",
+    "createdAt": "2023-11-22T20:33:01.541Z",
+    "updatedAt": "2023-11-22T20:33:01.541Z"
+  },
+  {
+    "id": "563",
+    "label": "blast bridge",
+    "slug": "blast-bridge",
+    "publishedAt": "2023-11-24 18:15:50.824+00",
+    "createdAt": "2023-11-24T18:15:50.842Z",
+    "updatedAt": "2023-11-24T18:15:50.842Z"
+  },
+  {
+    "id": "566",
+    "label": "josh giddey",
+    "slug": "josh-giddey",
+    "publishedAt": "2023-11-24 23:09:20.313+00",
+    "createdAt": "2023-11-24T23:09:20.333Z",
+    "updatedAt": "2023-11-24T23:09:20.333Z"
+  },
+  {
+    "id": "567",
+    "label": "contracts",
+    "slug": "contracts",
+    "publishedAt": "2023-11-24 23:09:22.821+00",
+    "createdAt": "2023-11-24T23:09:22.913Z",
+    "updatedAt": "2023-11-24T23:09:22.913Z"
+  },
+  {
+    "id": "568",
+    "label": "global health",
+    "slug": "global-health",
+    "publishedAt": "2023-11-25 19:04:36.466+00",
+    "createdAt": "2023-11-25T19:04:36.498Z",
+    "updatedAt": "2023-11-25T19:04:36.498Z"
+  },
+  {
+    "id": "569",
+    "label": "respiratory illness",
+    "slug": "respiratory-illness",
+    "publishedAt": "2023-11-25 19:04:39.462+00",
+    "createdAt": "2023-11-25T19:04:39.476Z",
+    "updatedAt": "2023-11-25T19:04:39.476Z"
+  },
+  {
+    "id": "570",
+    "label": "Pandemics",
+    "slug": "pandemics",
+    "forceShow": false,
+    "publishedAt": "2023-11-25 19:04:40.186+00",
+    "createdAt": "2023-11-25T19:04:40.206Z",
+    "updatedAt": "2024-05-31T15:07:11.656145Z"
+  },
+  {
+    "id": "611",
+    "label": "us house of representatives",
+    "slug": "us-house-of-representatives",
+    "publishedAt": "2023-12-01 14:41:51.747+00",
+    "createdAt": "2023-12-01T14:41:52.269Z",
+    "updatedAt": "2023-12-01T14:41:52.269Z"
+  },
+  {
+    "id": "614",
+    "label": "mayc",
+    "slug": "mayc",
+    "publishedAt": "2023-12-01 22:07:45.55+00",
+    "createdAt": "2023-12-01T22:07:45.923Z",
+    "updatedAt": "2023-12-01T22:07:45.923Z"
+  },
+  {
+    "id": "615",
+    "label": "markets",
+    "slug": "markets",
+    "publishedAt": "2023-12-01 22:07:47.037+00",
+    "createdAt": "2023-12-01T22:07:47.043Z",
+    "updatedAt": "2023-12-01T22:07:47.043Z"
+  },
+  {
+    "id": "616",
+    "label": "nfts",
+    "slug": "nfts",
+    "publishedAt": "2023-12-02 03:17:11.743+00",
+    "createdAt": "2023-12-02T03:17:11.765Z",
+    "updatedAt": "2023-12-02T03:17:11.765Z"
+  },
+  {
+    "id": "617",
+    "label": "token",
+    "slug": "token",
+    "publishedAt": "2023-12-02 03:29:14.417+00",
+    "createdAt": "2023-12-02T03:29:14.448Z",
+    "updatedAt": "2023-12-02T03:29:14.448Z"
+  },
+  {
+    "id": "618",
+    "label": "views",
+    "slug": "views",
+    "publishedAt": "2023-12-04 17:08:00.157+00",
+    "createdAt": "2023-12-04T17:08:00.163Z",
+    "updatedAt": "2023-12-04T17:08:00.163Z"
+  },
+  {
+    "id": "619",
+    "label": "financial forecast",
+    "slug": "financial-forecast",
+    "publishedAt": "2023-12-04 17:23:56.421+00",
+    "createdAt": "2023-12-04T17:23:56.457Z",
+    "updatedAt": "2023-12-04T17:23:56.457Z"
+  },
+  {
+    "id": "620",
+    "label": "btc",
+    "slug": "btc",
+    "publishedAt": "2023-12-04 17:23:56.881+00",
+    "createdAt": "2023-12-04T17:23:56.893Z",
+    "updatedAt": "2023-12-04T17:23:56.893Z"
+  },
+  {
+    "id": "658",
+    "label": "linguistics",
+    "slug": "linguistics",
+    "publishedAt": "2023-12-06 16:06:48.359+00",
+    "createdAt": "2023-12-06T16:06:48.365Z",
+    "updatedAt": "2023-12-06T16:06:48.365Z"
+  },
+  {
+    "id": "681",
+    "label": "pregnancy",
+    "slug": "pregnancy",
+    "publishedAt": "2023-12-08 16:42:31.743+00",
+    "createdAt": "2023-12-08T16:42:31.76Z",
+    "updatedAt": "2023-12-08T16:42:31.76Z"
+  },
+  {
+    "id": "682",
+    "label": "celebrity news",
+    "slug": "celebrity-news",
+    "publishedAt": "2023-12-08 16:42:33.685+00",
+    "updatedBy": 15,
+    "createdAt": "2023-12-08T16:42:33.703Z",
+    "updatedAt": "2024-02-11T18:12:52.063Z",
+    "forceHide": true
+  },
+  {
+    "id": "683",
+    "label": "Boxing",
+    "slug": "boxing",
+    "forceShow": false,
+    "publishedAt": "2023-12-08 21:19:42.815+00",
+    "createdAt": "2023-12-08T21:19:42.83Z",
+    "updatedAt": "2024-05-30T22:36:25.507962Z"
+  },
+  {
+    "id": "684",
+    "label": "haney",
+    "slug": "haney",
+    "publishedAt": "2023-12-08 21:19:43.153+00",
+    "createdAt": "2023-12-08T21:19:43.172Z",
+    "updatedAt": "2023-12-08T21:19:43.172Z"
+  },
+  {
+    "id": "685",
+    "label": "prograis",
+    "slug": "prograis",
+    "publishedAt": "2023-12-08 21:19:43.374+00",
+    "createdAt": "2023-12-08T21:19:43.399Z",
+    "updatedAt": "2023-12-08T21:19:43.399Z"
+  },
+  {
+    "id": "686",
+    "label": "cryptozoo",
+    "slug": "cryptozoo",
+    "publishedAt": "2023-12-08 22:04:19.05+00",
+    "createdAt": "2023-12-08T22:04:19.071Z",
+    "updatedAt": "2023-12-08T22:04:19.071Z"
+  },
+  {
+    "id": "687",
+    "label": "logan paul",
+    "slug": "logan-paul",
+    "publishedAt": "2023-12-08 22:04:21.494+00",
+    "createdAt": "2023-12-08T22:04:21.506Z",
+    "updatedAt": "2023-12-08T22:04:21.506Z"
+  },
+  {
+    "id": "688",
+    "label": "military strategy",
+    "slug": "military-strategy",
+    "publishedAt": "2023-12-08 22:06:35.131+00",
+    "createdAt": "2023-12-08T22:06:35.148Z",
+    "updatedAt": "2023-12-08T22:06:35.148Z"
+  },
+  {
+    "id": "689",
+    "label": "presidents",
+    "slug": "presidents",
+    "publishedAt": "2023-12-10 19:36:44.668+00",
+    "createdAt": "2023-12-10T19:36:44.691Z",
+    "updatedAt": "2023-12-10T19:36:44.691Z"
+  },
+  {
+    "id": "690",
+    "label": "university",
+    "slug": "university",
+    "publishedAt": "2023-12-10 19:36:46.15+00",
+    "createdAt": "2023-12-10T19:36:46.184Z",
+    "updatedAt": "2023-12-10T19:36:46.184Z"
+  },
+  {
+    "id": "741",
+    "label": "constitution",
+    "slug": "constitution",
+    "publishedAt": "2023-12-15 21:27:29.633+00",
+    "createdAt": "2023-12-15T21:27:30.001Z",
+    "updatedAt": "2023-12-15T21:27:30.001Z"
+  },
+  {
+    "id": "742",
+    "label": "Chile Election",
+    "slug": "chile",
+    "forceShow": false,
+    "publishedAt": "2023-12-15 21:27:47.718+00",
+    "createdAt": "2023-12-15T21:27:47.737Z",
+    "updatedAt": "2025-11-06T19:43:57.795025Z",
+    "isCarousel": false
+  },
+  {
+    "id": "743",
+    "label": "aquaman and the lost kingdom",
+    "slug": "aquaman-and-the-lost-kingdom",
+    "publishedAt": "2023-12-18 17:26:31.432+00",
+    "createdAt": "2023-12-18T17:26:31.892Z",
+    "updatedAt": "2023-12-18T17:26:31.892Z"
+  },
+  {
+    "id": "744",
+    "label": "cryptocurrency",
+    "slug": "cryptocurrency",
+    "forceShow": false,
+    "publishedAt": "2023-12-18 17:29:51.762+00",
+    "updatedBy": 15,
+    "createdAt": "2023-12-18T17:29:51.782Z",
+    "updatedAt": "2024-02-03T01:41:42.173Z",
+    "forceHide": true
+  },
+  {
+    "id": "745",
+    "label": "NBA",
+    "slug": "nba",
+    "forceShow": false,
+    "publishedAt": "2023-12-18 18:24:38.08+00",
+    "createdAt": "2023-12-18T18:24:38.098Z",
+    "updatedAt": "2024-06-18T14:52:57.582861Z"
+  },
+  {
+    "id": "746",
+    "label": "detroit pistons",
+    "slug": "detroit-pistons",
+    "publishedAt": "2023-12-18 18:24:38.687+00",
+    "createdAt": "2023-12-18T18:24:38.708Z",
+    "updatedAt": "2023-12-18T18:24:38.708Z"
+  },
+  {
+    "id": "747",
+    "label": "maersk",
+    "slug": "maersk",
+    "publishedAt": "2023-12-18 19:19:17.602+00",
+    "createdAt": "2023-12-18T19:19:17.615Z",
+    "updatedAt": "2023-12-18T19:19:17.615Z"
+  },
+  {
+    "id": "748",
+    "label": "global logistics",
+    "slug": "global-logistics",
+    "publishedAt": "2023-12-18 19:19:17.985+00",
+    "createdAt": "2023-12-18T19:19:18.006Z",
+    "updatedAt": "2023-12-18T19:19:18.006Z"
+  },
+  {
+    "id": "749",
+    "label": "red sea",
+    "slug": "red-sea",
+    "publishedAt": "2023-12-18 19:19:19.262+00",
+    "createdAt": "2023-12-18T19:19:19.555Z",
+    "updatedAt": "2023-12-18T19:19:19.555Z"
+  },
+  {
+    "id": "750",
+    "label": "virus variants",
+    "slug": "virus-variants",
+    "publishedAt": "2023-12-19 17:53:37.363+00",
+    "createdAt": "2023-12-19T17:53:37.379Z",
+    "updatedAt": "2023-12-19T17:53:37.379Z"
+  },
+  {
+    "id": "801",
+    "label": "desantis",
+    "slug": "desantis",
+    "publishedAt": "2023-12-28 18:59:59.362+00",
+    "createdAt": "2023-12-28T18:59:59.373Z",
+    "updatedAt": "2023-12-28T18:59:59.373Z"
+  },
+  {
+    "id": "802",
+    "label": "Iowa",
+    "slug": "iowa",
+    "forceShow": false,
+    "publishedAt": "2023-12-28 18:59:59.505+00",
+    "updatedBy": 15,
+    "createdAt": "2023-12-28T18:59:59.523Z",
+    "updatedAt": "2024-01-16T21:35:03.33Z"
+  },
+  {
+    "id": "803",
+    "label": "haley",
+    "slug": "haley",
+    "publishedAt": "2023-12-28 18:59:59.783+00",
+    "createdAt": "2023-12-28T18:59:59.8Z",
+    "updatedAt": "2023-12-28T18:59:59.8Z"
+  },
+  {
+    "id": "804",
+    "label": "data breach",
+    "slug": "data-breach",
+    "publishedAt": "2023-12-28 21:38:54.384+00",
+    "createdAt": "2023-12-28T21:38:54.399Z",
+    "updatedAt": "2023-12-28T21:38:54.399Z"
+  },
+  {
+    "id": "805",
+    "label": "global security",
+    "slug": "global-security",
+    "publishedAt": "2023-12-28 21:40:13.131+00",
+    "createdAt": "2023-12-28T21:40:13.137Z",
+    "updatedAt": "2023-12-28T21:40:13.137Z"
+  },
+  {
+    "id": "806",
+    "label": "market prediction",
+    "slug": "market-prediction",
+    "publishedAt": "2023-12-28 21:49:49.306+00",
+    "createdAt": "2023-12-28T21:49:49.401Z",
+    "updatedAt": "2023-12-28T21:49:49.401Z"
+  },
+  {
+    "id": "807",
+    "label": "$spx6900",
+    "slug": "spx6900",
+    "publishedAt": "2023-12-28 21:54:30.211+00",
+    "createdAt": "2023-12-28T21:54:30.225Z",
+    "updatedAt": "2023-12-28T21:54:30.225Z"
+  },
+  {
+    "id": "808",
+    "label": "legal settlement",
+    "slug": "legal-settlement",
+    "publishedAt": "2023-12-29 01:02:30.967+00",
+    "createdAt": "2023-12-29T01:02:30.98Z",
+    "updatedAt": "2023-12-29T01:02:30.98Z"
+  },
+  {
+    "id": "809",
+    "label": "nyt",
+    "slug": "nyt",
+    "publishedAt": "2023-12-29 01:02:35.911+00",
+    "createdAt": "2023-12-29T01:02:35.92Z",
+    "updatedAt": "2023-12-29T01:02:35.92Z"
+  },
+  {
+    "id": "810",
+    "label": "settlement",
+    "slug": "settlement",
+    "publishedAt": "2023-12-29 15:45:14.15+00",
+    "createdAt": "2023-12-29T15:45:14.159Z",
+    "updatedAt": "2023-12-29T15:45:14.159Z"
+  },
+  {
+    "id": "861",
+    "label": "icj",
+    "slug": "icj",
+    "publishedAt": "2024-01-11 15:58:39.212+00",
+    "createdAt": "2024-01-11T15:58:39.955Z",
+    "updatedAt": "2024-01-11T15:58:39.955Z"
+  },
+  {
+    "id": "862",
+    "label": "jordan henderson",
+    "slug": "jordan-henderson",
+    "publishedAt": "2024-01-11 20:07:14.847+00",
+    "createdAt": "2024-01-11T20:07:15.038Z",
+    "updatedAt": "2024-01-11T20:07:15.038Z"
+  },
+  {
+    "id": "863",
+    "label": "warfare",
+    "slug": "warfare",
+    "publishedAt": "2024-01-12 00:34:12.028+00",
+    "createdAt": "2024-01-12T00:34:12.064Z",
+    "updatedAt": "2024-01-12T00:34:12.064Z"
+  },
+  {
+    "id": "864",
+    "label": "Tennis",
+    "slug": "tennis",
+    "forceShow": false,
+    "publishedAt": "2024-01-12 19:45:09.662+00",
+    "createdAt": "2024-01-12T19:45:09.677Z",
+    "updatedAt": "2024-05-30T22:36:06.535723Z"
+  },
+  {
+    "id": "865",
+    "label": "novak djokovic",
+    "slug": "novak-djokovic",
+    "publishedAt": "2024-01-12 19:45:09.799+00",
+    "createdAt": "2024-01-12T19:45:09.811Z",
+    "updatedAt": "2024-01-12T19:45:09.811Z"
+  },
+  {
+    "id": "867",
+    "label": "taiwan",
+    "slug": "taiwan",
+    "publishedAt": "2024-01-15 18:46:22.471+00",
+    "createdAt": "2024-01-15T18:46:22.476Z",
+    "updatedAt": "2024-01-15T18:46:22.476Z"
+  },
+  {
+    "id": "868",
+    "label": "drug policy",
+    "slug": "drug-policy",
+    "publishedAt": "2024-01-16 22:02:09.679+00",
+    "createdAt": "2024-01-16T22:02:09.689Z",
+    "updatedAt": "2024-01-16T22:02:09.689Z"
+  },
+  {
+    "id": "869",
+    "label": "tether",
+    "slug": "tether",
+    "publishedAt": "2024-01-16 23:10:15.177+00",
+    "createdAt": "2024-01-16T23:10:15.19Z",
+    "updatedAt": "2024-01-16T23:10:15.19Z"
+  },
+  {
+    "id": "870",
+    "label": "usdt",
+    "slug": "usdt",
+    "publishedAt": "2024-01-17 16:43:07.552+00",
+    "createdAt": "2024-01-17T16:43:07.559Z",
+    "updatedAt": "2024-01-17T16:43:07.559Z"
+  },
+  {
+    "id": "921",
+    "label": "usa",
+    "slug": "usa",
+    "publishedAt": "2024-01-26 18:54:19.687+00",
+    "createdAt": "2024-01-26T18:54:19.699Z",
+    "updatedAt": "2024-01-26T18:54:19.699Z"
+  },
+  {
+    "id": "922",
+    "label": "2024 senate primary",
+    "slug": "2024-senate-primary",
+    "publishedAt": "2024-01-26 19:05:41.721+00",
+    "createdAt": "2024-01-26T19:05:41.764Z",
+    "updatedAt": "2024-01-26T19:05:41.764Z"
+  },
+  {
+    "id": "923",
+    "label": "steve garvey",
+    "slug": "steve-garvey",
+    "publishedAt": "2024-01-26 19:05:41.864+00",
+    "createdAt": "2024-01-26T19:05:41.882Z",
+    "updatedAt": "2024-01-26T19:05:41.882Z"
+  },
+  {
+    "id": "924",
+    "label": "Grammys",
+    "slug": "grammys",
+    "forceShow": false,
+    "publishedAt": "2024-01-26 19:11:32.986+00",
+    "createdBy": 15,
+    "updatedBy": 15,
+    "createdAt": "2024-01-26T19:11:31.63Z",
+    "updatedAt": "2024-02-05T23:53:06.004Z"
+  },
+  {
+    "id": "927",
+    "label": "sydney sweeny",
+    "slug": "sydney-sweeny",
+    "publishedAt": "2024-01-28 06:06:38.374+00",
+    "createdAt": "2024-01-28T06:06:38.38Z",
+    "updatedAt": "2024-01-28T06:06:38.38Z"
+  },
+  {
+    "id": "928",
+    "label": "sydney sweeney",
+    "slug": "sydney-sweeney",
+    "publishedAt": "2024-01-28 17:21:35.03+00",
+    "createdAt": "2024-01-28T17:21:35.126Z",
+    "updatedAt": "2024-01-28T17:21:35.126Z"
+  },
+  {
+    "id": "929",
+    "label": "Super Bowl",
+    "slug": "super-bowl",
+    "forceShow": false,
+    "publishedAt": "2024-01-29 15:38:45.874+00",
+    "updatedBy": 15,
+    "createdAt": "2024-01-29T15:38:45.89Z",
+    "updatedAt": "2024-02-12T08:14:30.814Z"
+  },
+  {
+    "id": "930",
+    "label": "public policy",
+    "slug": "public-policy",
+    "publishedAt": "2024-01-29 18:21:22.31+00",
+    "createdAt": "2024-01-29T18:21:22.356Z",
+    "updatedAt": "2024-01-29T18:21:22.356Z"
+  },
+  {
+    "id": "971",
+    "label": "jim cramer",
+    "slug": "jim-cramer",
+    "publishedAt": "2024-02-06 19:19:19.076+00",
+    "createdAt": "2024-02-06T19:19:19.09Z",
+    "updatedAt": "2024-02-06T19:19:19.09Z"
+  },
+  {
+    "id": "972",
+    "label": "Tweet Markets",
+    "slug": "tweets-markets",
+    "forceShow": false,
+    "publishedAt": "2024-02-06 19:19:25.344+00",
+    "createdAt": "2024-02-06T19:19:25.37Z",
+    "updatedAt": "2024-06-25T18:27:30.64847Z"
+  },
+  {
+    "id": "973",
+    "label": "overtime",
+    "slug": "overtime",
+    "publishedAt": "2024-02-06 19:19:50.208+00",
+    "createdAt": "2024-02-06T19:19:50.234Z",
+    "updatedAt": "2024-02-06T19:19:50.234Z"
+  },
+  {
+    "id": "974",
+    "label": "betting",
+    "slug": "betting",
+    "publishedAt": "2024-02-06 19:19:58.599+00",
+    "createdAt": "2024-02-06T19:19:58.603Z",
+    "updatedAt": "2024-02-06T19:19:58.603Z"
+  },
+  {
+    "id": "975",
+    "label": "game results",
+    "slug": "game-results",
+    "publishedAt": "2024-02-06 19:20:13.7+00",
+    "createdAt": "2024-02-06T19:20:13.711Z",
+    "updatedAt": "2024-02-06T19:20:13.711Z"
+  },
+  {
+    "id": "976",
+    "label": "approval rating",
+    "slug": "approval-rating",
+    "publishedAt": "2024-02-06 19:21:02.084+00",
+    "createdAt": "2024-02-06T19:21:02.093Z",
+    "updatedAt": "2024-02-06T19:21:02.093Z"
+  },
+  {
+    "id": "977",
+    "label": "polls",
+    "slug": "polls",
+    "publishedAt": "2024-02-06 19:21:02.842+00",
+    "createdAt": "2024-02-06T19:21:02.905Z",
+    "updatedAt": "2024-02-06T19:21:02.905Z"
+  },
+  {
+    "id": "978",
+    "label": "gatorade shower",
+    "slug": "gatorade-shower",
+    "publishedAt": "2024-02-06 19:21:31.227+00",
+    "createdAt": "2024-02-06T19:21:31.246Z",
+    "updatedAt": "2024-02-06T19:21:31.246Z"
+  },
+  {
+    "id": "979",
+    "label": "traditions",
+    "slug": "traditions",
+    "publishedAt": "2024-02-06 19:21:40.246+00",
+    "createdAt": "2024-02-06T19:21:40.251Z",
+    "updatedAt": "2024-02-06T19:21:40.251Z"
+  },
+  {
+    "id": "980",
+    "label": "gatorade",
+    "slug": "gatorade",
+    "publishedAt": "2024-02-06 19:23:11.994+00",
+    "createdAt": "2024-02-06T19:23:12.015Z",
+    "updatedAt": "2024-02-06T19:23:12.015Z"
+  }
+]

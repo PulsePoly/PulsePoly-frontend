@@ -1,0 +1,1032 @@
+{
+  "1": {
+    "id": "1",
+    "name": "Sports",
+    "slug": "sports"
+  },
+  "2": {
+    "id": "2",
+    "name": "Politics",
+    "slug": "politics"
+  },
+  "3": {
+    "id": "3",
+    "name": "video games",
+    "slug": "video-games"
+  },
+  "4": {
+    "id": "4",
+    "name": "gta 6",
+    "slug": "gta-6"
+  },
+  "5": {
+    "id": "5",
+    "name": "release date",
+    "slug": "release-date"
+  },
+  "6": {
+    "id": "6",
+    "name": "musk",
+    "slug": "musk"
+  },
+  "7": {
+    "id": "7",
+    "name": "zuck",
+    "slug": "zuck"
+  },
+  "8": {
+    "id": "8",
+    "name": "future events",
+    "slug": "future-events"
+  },
+  "9": {
+    "id": "9",
+    "name": "speculation",
+    "slug": "speculation"
+  },
+  "10": {
+    "id": "10",
+    "name": "football",
+    "slug": "football"
+  },
+  "11": {
+    "id": "11",
+    "name": "jets",
+    "slug": "jets"
+  },
+  "12": {
+    "id": "12",
+    "name": "chargers",
+    "slug": "chargers"
+  },
+  "13": {
+    "id": "13",
+    "name": "texans",
+    "slug": "texans"
+  },
+  "14": {
+    "id": "14",
+    "name": "buccaneers",
+    "slug": "buccaneers"
+  },
+  "15": {
+    "id": "15",
+    "name": "Joe Biden",
+    "slug": "joe-biden"
+  },
+  "16": {
+    "id": "16",
+    "name": "time magazine",
+    "slug": "time-magazine"
+  },
+  "17": {
+    "id": "17",
+    "name": "person of the year",
+    "slug": "person-of-the-year"
+  },
+  "18": {
+    "id": "18",
+    "name": "Awards",
+    "slug": "awards"
+  },
+  "19": {
+    "id": "19",
+    "name": "Ethereum Dencun",
+    "slug": "ethereum-dencun"
+  },
+  "20": {
+    "id": "20",
+    "name": "blockchain",
+    "slug": "blockchain"
+  },
+  "21": {
+    "id": "21",
+    "name": "Crypto",
+    "slug": "crypto"
+  },
+  "22": {
+    "id": "22",
+    "name": "technology",
+    "slug": "technology"
+  },
+  "24": {
+    "id": "24",
+    "name": "USA Election",
+    "slug": "us-election"
+  },
+  "25": {
+    "id": "25",
+    "name": "tim scott",
+    "slug": "tim-scott"
+  },
+  "26": {
+    "id": "26",
+    "name": "republican party",
+    "slug": "republican-party"
+  },
+  "27": {
+    "id": "27",
+    "name": "vice presidential nomination",
+    "slug": "vice-presidential-nomination"
+  },
+  "28": {
+    "id": "28",
+    "name": "Basketball",
+    "slug": "basketball"
+  },
+  "29": {
+    "id": "29",
+    "name": "pelicans",
+    "slug": "pelicans"
+  },
+  "30": {
+    "id": "30",
+    "name": "pistons",
+    "slug": "pistons"
+  },
+  "31": {
+    "id": "31",
+    "name": "thunder",
+    "slug": "thunder"
+  },
+  "32": {
+    "id": "32",
+    "name": "warriors",
+    "slug": "warriors"
+  },
+  "33": {
+    "id": "33",
+    "name": "knicks",
+    "slug": "knicks"
+  },
+  "34": {
+    "id": "34",
+    "name": "clippers",
+    "slug": "clippers"
+  },
+  "35": {
+    "id": "35",
+    "name": "bucks",
+    "slug": "bucks"
+  },
+  "36": {
+    "id": "36",
+    "name": "gaming",
+    "slug": "gaming"
+  },
+  "37": {
+    "id": "37",
+    "name": "celebrity events",
+    "slug": "celebrity-events"
+  },
+  "38": {
+    "id": "38",
+    "name": "news",
+    "slug": "news"
+  },
+  "39": {
+    "id": "39",
+    "name": "Ethereum",
+    "slug": "ethereum"
+  },
+  "40": {
+    "id": "40",
+    "name": "2024 elections",
+    "slug": "2024-elections"
+  },
+  "41": {
+    "id": "41",
+    "name": "predictions",
+    "slug": "predictions"
+  },
+  "42": {
+    "id": "42",
+    "name": "software updates",
+    "slug": "software-updates"
+  },
+  "43": {
+    "id": "43",
+    "name": "76ers",
+    "slug": "76ers"
+  },
+  "44": {
+    "id": "44",
+    "name": "wizards",
+    "slug": "wizards"
+  },
+  "45": {
+    "id": "45",
+    "name": "trail blazers",
+    "slug": "trail-blazers"
+  },
+  "46": {
+    "id": "46",
+    "name": "grizzlies",
+    "slug": "grizzlies"
+  },
+  "47": {
+    "id": "47",
+    "name": "aaron rodgers",
+    "slug": "aaron-rodgers"
+  },
+  "48": {
+    "id": "48",
+    "name": "rockets",
+    "slug": "rockets"
+  },
+  "49": {
+    "id": "49",
+    "name": "kings",
+    "slug": "kings"
+  },
+  "50": {
+    "id": "50",
+    "name": "the marvels",
+    "slug": "the-marvels"
+  },
+  "51": {
+    "id": "51",
+    "name": "box office",
+    "slug": "box-office"
+  },
+  "52": {
+    "id": "52",
+    "name": "film industry",
+    "slug": "film-industry"
+  },
+  "53": {
+    "id": "53",
+    "name": "Movies",
+    "slug": "movies"
+  },
+  "54": {
+    "id": "54",
+    "name": "raptors",
+    "slug": "raptors"
+  },
+  "55": {
+    "id": "55",
+    "name": "vivek ramaswamy",
+    "slug": "vivek-ramaswamy"
+  },
+  "56": {
+    "id": "56",
+    "name": "republicans",
+    "slug": "republicans"
+  },
+  "57": {
+    "id": "57",
+    "name": "2024 presidential election",
+    "slug": "2024-presidential-election"
+  },
+  "58": {
+    "id": "58",
+    "name": "nuggets",
+    "slug": "nuggets"
+  },
+  "59": {
+    "id": "59",
+    "name": "bulls",
+    "slug": "bulls"
+  },
+  "60": {
+    "id": "60",
+    "name": "starlink",
+    "slug": "starlink"
+  },
+  "61": {
+    "id": "61",
+    "name": "Gaza",
+    "slug": "gaza"
+  },
+  "62": {
+    "id": "62",
+    "name": "satellite internet",
+    "slug": "satellite-internet"
+  },
+  "63": {
+    "id": "63",
+    "name": "SpaceX",
+    "slug": "spacex"
+  },
+  "64": {
+    "id": "64",
+    "name": "Esports",
+    "slug": "esports"
+  },
+  "65": {
+    "id": "65",
+    "name": "league of legends",
+    "slug": "league-of-legends"
+  },
+  "66": {
+    "id": "66",
+    "name": "north america",
+    "slug": "north-america"
+  },
+  "67": {
+    "id": "67",
+    "name": "lol worlds 2023",
+    "slug": "lol-worlds-2023"
+  },
+  "68": {
+    "id": "68",
+    "name": "uaw",
+    "slug": "uaw"
+  },
+  "69": {
+    "id": "69",
+    "name": "strike",
+    "slug": "strike"
+  },
+  "70": {
+    "id": "70",
+    "name": "labor unions",
+    "slug": "labor-unions"
+  },
+  "71": {
+    "id": "71",
+    "name": "aliens",
+    "slug": "aliens"
+  },
+  "72": {
+    "id": "72",
+    "name": "extraterrestrial life",
+    "slug": "extraterrestrial-life"
+  },
+  "73": {
+    "id": "73",
+    "name": "future predictions",
+    "slug": "future-predictions"
+  },
+  "74": {
+    "id": "74",
+    "name": "Science",
+    "slug": "science"
+  },
+  "75": {
+    "id": "75",
+    "name": "space exploration",
+    "slug": "space-exploration"
+  },
+  "76": {
+    "id": "76",
+    "name": "suns",
+    "slug": "suns"
+  },
+  "77": {
+    "id": "77",
+    "name": "mavericks",
+    "slug": "mavericks"
+  },
+  "78": {
+    "id": "78",
+    "name": "Iran",
+    "slug": "iran"
+  },
+  "79": {
+    "id": "79",
+    "name": "war",
+    "slug": "war"
+  },
+  "80": {
+    "id": "80",
+    "name": "international relations",
+    "slug": "international-relations"
+  },
+  "81": {
+    "id": "81",
+    "name": "haaland",
+    "slug": "haaland"
+  },
+  "82": {
+    "id": "82",
+    "name": "Premier League",
+    "slug": "premier-league"
+  },
+  "83": {
+    "id": "83",
+    "name": "records",
+    "slug": "records"
+  },
+  "84": {
+    "id": "84",
+    "name": "Weather",
+    "slug": "weather"
+  },
+  "85": {
+    "id": "85",
+    "name": "Hurricanes",
+    "slug": "hurricanes"
+  },
+  "86": {
+    "id": "86",
+    "name": "us",
+    "slug": "us"
+  },
+  "87": {
+    "id": "87",
+    "name": "climate",
+    "slug": "climate"
+  },
+  "88": {
+    "id": "88",
+    "name": "steelers",
+    "slug": "steelers"
+  },
+  "89": {
+    "id": "89",
+    "name": "titans",
+    "slug": "titans"
+  },
+  "90": {
+    "id": "90",
+    "name": "nuclear weapons",
+    "slug": "nuclear-weapons"
+  },
+  "91": {
+    "id": "91",
+    "name": "security",
+    "slug": "security"
+  },
+  "92": {
+    "id": "92",
+    "name": "global warming",
+    "slug": "global-warming"
+  },
+  "93": {
+    "id": "93",
+    "name": "Prediction Markets",
+    "slug": "prediction-markets"
+  },
+  "94": {
+    "id": "94",
+    "name": "hornets",
+    "slug": "hornets"
+  },
+  "95": {
+    "id": "95",
+    "name": "russia",
+    "slug": "russia"
+  },
+  "96": {
+    "id": "96",
+    "name": "Ukraine",
+    "slug": "ukraine"
+  },
+  "97": {
+    "id": "97",
+    "name": "peace agreements",
+    "slug": "peace-agreements"
+  },
+  "98": {
+    "id": "98",
+    "name": "tucker carlson",
+    "slug": "tucker-carlson"
+  },
+  "99": {
+    "id": "99",
+    "name": "u.s. 2024 elections",
+    "slug": "uptspt-2024-elections"
+  },
+  "100": {
+    "id": "100",
+    "name": "Music",
+    "slug": "music"
+  },
+  "352": {
+    "id": "352",
+    "name": "packers",
+    "slug": "packers"
+  },
+  "356": {
+    "id": "356",
+    "name": "laphonza butler",
+    "slug": "laphonza-butler"
+  },
+  "360": {
+    "id": "360",
+    "name": "robert f. kennedy jr.",
+    "slug": "robert-fpt-kennedy-jrpt"
+  },
+  "381": {
+    "id": "381",
+    "name": "2024 ca senate primary",
+    "slug": "2024-ca-senate-primary"
+  },
+  "382": {
+    "id": "382",
+    "name": "chris christie",
+    "slug": "chris-christie"
+  },
+  "384": {
+    "id": "384",
+    "name": "seahawks",
+    "slug": "seahawks"
+  },
+  "385": {
+    "id": "385",
+    "name": "salah",
+    "slug": "salah"
+  },
+  "386": {
+    "id": "386",
+    "name": "transfer window",
+    "slug": "transfer-window"
+  },
+  "387": {
+    "id": "387",
+    "name": "saudi club",
+    "slug": "saudi-club"
+  },
+  "388": {
+    "id": "388",
+    "name": "netanyahu",
+    "slug": "netanyahu"
+  },
+  "389": {
+    "id": "389",
+    "name": "prime minister",
+    "slug": "prime-minister"
+  },
+  "390": {
+    "id": "390",
+    "name": "moon landing",
+    "slug": "moon-landing"
+  },
+  "432": {
+    "id": "432",
+    "name": "mike pence",
+    "slug": "mike-pence"
+  },
+  "435": {
+    "id": "435",
+    "name": "Formula 1",
+    "slug": "formula1"
+  },
+  "436": {
+    "id": "436",
+    "name": "aston martin",
+    "slug": "aston-martin"
+  },
+  "438": {
+    "id": "438",
+    "name": "mitch mcconnell",
+    "slug": "mitch-mcconnell"
+  },
+  "440": {
+    "id": "440",
+    "name": "gpt-4",
+    "slug": "gpt-4"
+  },
+  "462": {
+    "id": "462",
+    "name": "virginia",
+    "slug": "virginia"
+  },
+  "465": {
+    "id": "465",
+    "name": "primary debate",
+    "slug": "primary-debate"
+  },
+  "466": {
+    "id": "466",
+    "name": "RNC",
+    "slug": "rnc"
+  },
+  "468": {
+    "id": "468",
+    "name": "rnc primary debate",
+    "slug": "rnc-primary-debate"
+  },
+  "491": {
+    "id": "491",
+    "name": "censure",
+    "slug": "censure"
+  },
+  "492": {
+    "id": "492",
+    "name": "geology",
+    "slug": "geology"
+  },
+  "494": {
+    "id": "494",
+    "name": "eruption",
+    "slug": "eruption"
+  },
+  "495": {
+    "id": "495",
+    "name": "volcano",
+    "slug": "volcano"
+  },
+  "498": {
+    "id": "498",
+    "name": "the hunger games",
+    "slug": "the-hunger-games"
+  },
+  "499": {
+    "id": "499",
+    "name": "the ballad of songbirds & snakes",
+    "slug": "the-ballad-of-songbirds-snakes"
+  },
+  "500": {
+    "id": "500",
+    "name": "space travel",
+    "slug": "space-travel"
+  },
+  "522": {
+    "id": "522",
+    "name": "snoop",
+    "slug": "snoop"
+  },
+  "525": {
+    "id": "525",
+    "name": "Netherlands",
+    "slug": "netherlands"
+  },
+  "526": {
+    "id": "526",
+    "name": "nsc",
+    "slug": "nsc"
+  },
+  "528": {
+    "id": "528",
+    "name": "pvv",
+    "slug": "pvv"
+  },
+  "530": {
+    "id": "530",
+    "name": "TikTok",
+    "slug": "tiktok"
+  },
+  "561": {
+    "id": "561",
+    "name": "peace",
+    "slug": "peace"
+  },
+  "562": {
+    "id": "562",
+    "name": "season 3",
+    "slug": "season-3"
+  },
+  "563": {
+    "id": "563",
+    "name": "blast bridge",
+    "slug": "blast-bridge"
+  },
+  "566": {
+    "id": "566",
+    "name": "josh giddey",
+    "slug": "josh-giddey"
+  },
+  "567": {
+    "id": "567",
+    "name": "contracts",
+    "slug": "contracts"
+  },
+  "568": {
+    "id": "568",
+    "name": "global health",
+    "slug": "global-health"
+  },
+  "569": {
+    "id": "569",
+    "name": "respiratory illness",
+    "slug": "respiratory-illness"
+  },
+  "570": {
+    "id": "570",
+    "name": "Pandemics",
+    "slug": "pandemics"
+  },
+  "611": {
+    "id": "611",
+    "name": "us house of representatives",
+    "slug": "us-house-of-representatives"
+  },
+  "614": {
+    "id": "614",
+    "name": "mayc",
+    "slug": "mayc"
+  },
+  "615": {
+    "id": "615",
+    "name": "markets",
+    "slug": "markets"
+  },
+  "616": {
+    "id": "616",
+    "name": "nfts",
+    "slug": "nfts"
+  },
+  "617": {
+    "id": "617",
+    "name": "token",
+    "slug": "token"
+  },
+  "618": {
+    "id": "618",
+    "name": "views",
+    "slug": "views"
+  },
+  "619": {
+    "id": "619",
+    "name": "financial forecast",
+    "slug": "financial-forecast"
+  },
+  "620": {
+    "id": "620",
+    "name": "btc",
+    "slug": "btc"
+  },
+  "658": {
+    "id": "658",
+    "name": "linguistics",
+    "slug": "linguistics"
+  },
+  "681": {
+    "id": "681",
+    "name": "pregnancy",
+    "slug": "pregnancy"
+  },
+  "682": {
+    "id": "682",
+    "name": "celebrity news",
+    "slug": "celebrity-news"
+  },
+  "683": {
+    "id": "683",
+    "name": "Boxing",
+    "slug": "boxing"
+  },
+  "684": {
+    "id": "684",
+    "name": "haney",
+    "slug": "haney"
+  },
+  "685": {
+    "id": "685",
+    "name": "prograis",
+    "slug": "prograis"
+  },
+  "686": {
+    "id": "686",
+    "name": "cryptozoo",
+    "slug": "cryptozoo"
+  },
+  "687": {
+    "id": "687",
+    "name": "logan paul",
+    "slug": "logan-paul"
+  },
+  "688": {
+    "id": "688",
+    "name": "military strategy",
+    "slug": "military-strategy"
+  },
+  "689": {
+    "id": "689",
+    "name": "presidents",
+    "slug": "presidents"
+  },
+  "690": {
+    "id": "690",
+    "name": "university",
+    "slug": "university"
+  },
+  "741": {
+    "id": "741",
+    "name": "constitution",
+    "slug": "constitution"
+  },
+  "742": {
+    "id": "742",
+    "name": "Chile Election",
+    "slug": "chile"
+  },
+  "743": {
+    "id": "743",
+    "name": "aquaman and the lost kingdom",
+    "slug": "aquaman-and-the-lost-kingdom"
+  },
+  "744": {
+    "id": "744",
+    "name": "cryptocurrency",
+    "slug": "cryptocurrency"
+  },
+  "745": {
+    "id": "745",
+    "name": "NBA",
+    "slug": "nba"
+  },
+  "746": {
+    "id": "746",
+    "name": "detroit pistons",
+    "slug": "detroit-pistons"
+  },
+  "747": {
+    "id": "747",
+    "name": "maersk",
+    "slug": "maersk"
+  },
+  "748": {
+    "id": "748",
+    "name": "global logistics",
+    "slug": "global-logistics"
+  },
+  "749": {
+    "id": "749",
+    "name": "red sea",
+    "slug": "red-sea"
+  },
+  "750": {
+    "id": "750",
+    "name": "virus variants",
+    "slug": "virus-variants"
+  },
+  "801": {
+    "id": "801",
+    "name": "desantis",
+    "slug": "desantis"
+  },
+  "802": {
+    "id": "802",
+    "name": "Iowa",
+    "slug": "iowa"
+  },
+  "803": {
+    "id": "803",
+    "name": "haley",
+    "slug": "haley"
+  },
+  "804": {
+    "id": "804",
+    "name": "data breach",
+    "slug": "data-breach"
+  },
+  "805": {
+    "id": "805",
+    "name": "global security",
+    "slug": "global-security"
+  },
+  "806": {
+    "id": "806",
+    "name": "market prediction",
+    "slug": "market-prediction"
+  },
+  "807": {
+    "id": "807",
+    "name": "$spx6900",
+    "slug": "spx6900"
+  },
+  "808": {
+    "id": "808",
+    "name": "legal settlement",
+    "slug": "legal-settlement"
+  },
+  "809": {
+    "id": "809",
+    "name": "nyt",
+    "slug": "nyt"
+  },
+  "810": {
+    "id": "810",
+    "name": "settlement",
+    "slug": "settlement"
+  },
+  "861": {
+    "id": "861",
+    "name": "icj",
+    "slug": "icj"
+  },
+  "862": {
+    "id": "862",
+    "name": "jordan henderson",
+    "slug": "jordan-henderson"
+  },
+  "863": {
+    "id": "863",
+    "name": "warfare",
+    "slug": "warfare"
+  },
+  "864": {
+    "id": "864",
+    "name": "Tennis",
+    "slug": "tennis"
+  },
+  "865": {
+    "id": "865",
+    "name": "novak djokovic",
+    "slug": "novak-djokovic"
+  },
+  "867": {
+    "id": "867",
+    "name": "taiwan",
+    "slug": "taiwan"
+  },
+  "868": {
+    "id": "868",
+    "name": "drug policy",
+    "slug": "drug-policy"
+  },
+  "869": {
+    "id": "869",
+    "name": "tether",
+    "slug": "tether"
+  },
+  "870": {
+    "id": "870",
+    "name": "usdt",
+    "slug": "usdt"
+  },
+  "921": {
+    "id": "921",
+    "name": "usa",
+    "slug": "usa"
+  },
+  "922": {
+    "id": "922",
+    "name": "2024 senate primary",
+    "slug": "2024-senate-primary"
+  },
+  "923": {
+    "id": "923",
+    "name": "steve garvey",
+    "slug": "steve-garvey"
+  },
+  "924": {
+    "id": "924",
+    "name": "Grammys",
+    "slug": "grammys"
+  },
+  "927": {
+    "id": "927",
+    "name": "sydney sweeny",
+    "slug": "sydney-sweeny"
+  },
+  "928": {
+    "id": "928",
+    "name": "sydney sweeney",
+    "slug": "sydney-sweeney"
+  },
+  "929": {
+    "id": "929",
+    "name": "Super Bowl",
+    "slug": "super-bowl"
+  },
+  "930": {
+    "id": "930",
+    "name": "public policy",
+    "slug": "public-policy"
+  },
+  "971": {
+    "id": "971",
+    "name": "jim cramer",
+    "slug": "jim-cramer"
+  },
+  "972": {
+    "id": "972",
+    "name": "Tweet Markets",
+    "slug": "tweets-markets"
+  },
+  "973": {
+    "id": "973",
+    "name": "overtime",
+    "slug": "overtime"
+  },
+  "974": {
+    "id": "974",
+    "name": "betting",
+    "slug": "betting"
+  },
+  "975": {
+    "id": "975",
+    "name": "game results",
+    "slug": "game-results"
+  },
+  "976": {
+    "id": "976",
+    "name": "approval rating",
+    "slug": "approval-rating"
+  },
+  "977": {
+    "id": "977",
+    "name": "polls",
+    "slug": "polls"
+  },
+  "978": {
+    "id": "978",
+    "name": "gatorade shower",
+    "slug": "gatorade-shower"
+  },
+  "979": {
+    "id": "979",
+    "name": "traditions",
+    "slug": "traditions"
+  },
+  "980": {
+    "id": "980",
+    "name": "gatorade",
+    "slug": "gatorade"
+  }
+}
