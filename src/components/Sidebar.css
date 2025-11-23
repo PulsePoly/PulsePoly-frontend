@@ -1,0 +1,468 @@
+/* Sidebar Container */
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 250px;
+  height: 100vh;
+  background: #121212; /* darker gray */
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex;
+  flex-direction: column;
+  z-index: 200; /* Higher z-index to overlay content */
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
+              width 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+              opacity 0.3s ease;
+  box-shadow: 2px 0 20px rgba(0, 0, 0, 0.5); /* Stronger shadow for overlay effect */
+  overflow: hidden;
+}
+
+.sidebar.collapsed {
+  transform: translateX(-100%);
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Sidebar Toggle Button */
+.sidebar-toggle-button {
+  position: fixed;
+  left: 250px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background: #181818; /* similar gray to sidebar */
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-left: none;
+  border-radius: 0 12px 12px 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 101;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.15);
+  padding: 0;
+}
+
+.sidebar-toggle-button:hover {
+  background: #1a1a1a; /* slightly lighter on hover */
+  box-shadow: 2px 0 15px rgba(0, 0, 0, 0.25);
+}
+
+.sidebar-toggle-button:not(.collapsed):hover {
+  transform: translateY(-50%) translateX(2px);
+}
+
+.sidebar-toggle-button.collapsed {
+  left: 0;
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0 12px 12px 0;
+}
+
+.sidebar-toggle-button.collapsed:hover {
+  transform: translateY(-50%) translateX(2px);
+}
+
+/* Toggle Icon - Vertical Bar + Chevron */
+.triangle-icon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.triangle-icon::before {
+  content: '';
+  width: 2px;
+  height: 12px;
+  background: white;
+  border-radius: 1px;
+  opacity: 0.9;
+}
+
+.triangle-icon::after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 4px 0 4px 6px;
+  border-color: transparent transparent transparent white;
+  opacity: 0.9;
+  transition: transform 0.3s ease;
+}
+
+.sidebar-toggle-button.collapsed .triangle-icon::after {
+  transform: rotate(180deg);
+}
+
+/* Sidebar Header */
+.sidebar-header {
+  padding: 1.5rem 1rem 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  position: relative;
+  z-index: 10;
+}
+
+.sidebar-toggle {
+  display: flex;
+  gap: 0.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  padding: 0.25rem;
+  position: relative;
+  z-index: 10;
+}
+
+.toggle-button {
+  flex: 1;
+  padding: 0.5rem 0.75rem;
+  background: transparent;
+  border: none;
+  border-radius: 6px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: center;
+  position: relative;
+  z-index: 100;
+  pointer-events: auto;
+}
+
+.toggle-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.toggle-button.active {
+  background: #181818; /* solid base */
+  color: white;
+  box-shadow: none; /* no constant glow */
+}
+
+.toggle-button.active:hover {
+  background: linear-gradient(135deg, #2a2a2a 0%, #3a3a3a 100%); /* gray gradient */
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1); /* subtle white glow only on hover */
+}
+
+/* Sidebar Navigation */
+.sidebar-nav {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 1rem 0;
+}
+
+.sidebar-nav::-webkit-scrollbar {
+  width: 6px;
+}
+
+.sidebar-nav::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.sidebar-nav::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+}
+
+.sidebar-nav::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Category List */
+.category-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.category-item {
+  margin: 0;
+  padding: 0;
+}
+
+.category-button {
+  width: 100%;
+  padding: 0.875rem 1rem;
+  background: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-align: left;
+  border-left: 3px solid transparent;
+}
+
+.category-button:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: white;
+  border-left-color: rgba(255, 255, 255, 0.2); /* subtle white accent */
+}
+
+.category-button.active {
+  background: rgba(255, 255, 255, 0.08); /* subtle white accent */
+  color: white;
+  border-left-color: rgba(255, 255, 255, 0.2);
+  font-weight: 600;
+}
+
+.category-icon {
+  font-size: 1.125rem;
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.category-icon svg {
+  width: 100%;
+  height: 100%;
+  stroke: white;
+  fill: none;
+}
+
+.category-name {
+  flex: 1;
+}
+
+/* My Markets Sidebar */
+.my-markets-sidebar {
+  padding: 0 1rem;
+}
+
+.sidebar-search-in-markets {
+  margin-bottom: 1rem;
+}
+
+.sidebar-search-button-link {
+  width: 100%;
+  padding: 0.875rem 1rem;
+  background: #121212; /* darker gray */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: none; /* no constant glow */
+}
+
+.sidebar-search-button-link:hover {
+  background: linear-gradient(135deg, #2a2a2a 0%, #3a3a3a 100%); /* gray gradient */
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1); /* subtle white glow only on hover */
+}
+
+.search-button-text {
+  flex: 1;
+  text-align: left;
+}
+
+.search-button-icon {
+  font-size: 1rem;
+}
+
+.sidebar-empty {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.sidebar-empty p {
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.sidebar-empty span {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* Markets Header */
+.markets-header-sidebar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding: 0 0.5rem;
+}
+
+.markets-count {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.clear-all-small {
+  background: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.875rem;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.clear-all-small:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Markets Section */
+.markets-section {
+  margin-bottom: 1.5rem;
+}
+
+.section-title-small {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 0.75rem;
+  padding: 0 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Market Item Sidebar */
+.market-item-sidebar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 6px;
+  transition: background 0.2s ease;
+}
+
+.market-item-sidebar:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.market-item-sidebar.pinned {
+  background: rgba(255, 255, 255, 0.05); /* subtle white accent */
+}
+
+.market-button-sidebar {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  cursor: pointer;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.market-button-sidebar:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: white;
+}
+
+.market-icon-sidebar {
+  font-size: 0.875rem;
+  flex-shrink: 0;
+}
+
+.market-name-sidebar {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.market-actions-sidebar {
+  display: flex;
+  gap: 0.25rem;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.market-item-sidebar:hover .market-actions-sidebar {
+  opacity: 1;
+}
+
+.action-button-sidebar {
+  background: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.75rem;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+}
+
+.action-button-sidebar:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.pin-button-sidebar:hover {
+  background: rgba(255, 255, 255, 0.1); /* subtle white accent */
+}
+
+.remove-button-sidebar:hover {
+  background: rgba(239, 68, 68, 0.2);
+  color: #ef4444;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .sidebar {
+    width: 220px;
+  }
+
+  .sidebar-toggle-button {
+    left: 220px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    max-width: 280px;
+    box-shadow: 2px 0 30px rgba(0, 0, 0, 0.5);
+  }
+
+  .sidebar-toggle-button {
+    left: 280px;
+  }
+
+  .sidebar-toggle-button.collapsed {
+    left: 0;
+  }
+}
+
