@@ -5,6 +5,7 @@ import Footer from './components/Footer'
 import Sidebar from './components/Sidebar'
 import EventDetail from './components/EventDetail'
 import LightPillar from './components/LightPillar'
+import Chat from './components/Chat'
 
 // Import SVG icons from assets
 import SportsIcon from '../assets/sport-16-regular.svg'
@@ -29,6 +30,7 @@ function App() {
   const [loadingMore, setLoadingMore] = useState(false)
   const [sidebarCollapsed, setSidebarCollapsed] = useState(true)
   const itemsPerPage = 50
+  const chatRef = useRef(null)
   
   useEffect(() => {
     const saved = localStorage.getItem('polymarket_myMarkets')
@@ -139,10 +141,26 @@ function App() {
 
     const identifier = event.id || event.slug || event.ticker
     
+    // Open chat and send event data to AI
+    if (chatRef.current) {
+      chatRef.current.openChat()
+    }
+    
     if (identifier) {
       const fullEventData = await fetchEventById(identifier)
       if (fullEventData) {
         setSelectedEvent(fullEventData)
+        
+        // Send full event data to AI chat
+        if (chatRef.current) {
+          const prompt = formatEventForAI(fullEventData)
+          const displayText = `Event: ${identifier}`
+          
+          // Small delay to ensure chat is open
+          setTimeout(() => {
+            chatRef.current.sendMessage(prompt, displayText)
+          }, 100)
+        }
       }
     }
   }
@@ -857,6 +875,88 @@ function App() {
     setHasMore(false)
     // Scroll to top of the document
     window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+
+  // Format event data for AI analysis
+  const formatEventForAI = (event) => {
+    const title = event.question || event.title || 'Unknown event'
+    const description = event.description || ''
+    
+    // Get volume
+    const volume = parseFloat(event.volume || event.volumeClob || event.volumeUsd || event.totalVolume || 0)
+    
+    // Get outcomes and prices
+    let outcomes = []
+    let outcomeData = []
+    
+    if (event.markets && Array.isArray(event.markets) && event.markets.length > 0) {
+      event.markets.forEach((market, i) => {
+        let outcomeName = market.groupItemTitle || market.question || market.title || `Outcome ${i + 1}`
+        let percent = 50
+        
+        if (market.outcomePrices && Array.isArray(market.outcomePrices) && market.outcomePrices.length > 0) {
+          const rawPrice = parseFloat(market.outcomePrices[0])
+          if (!isNaN(rawPrice)) {
+            percent = rawPrice > 1 ? Math.round(rawPrice) : Math.round(rawPrice * 100)
+          }
+        }
+        
+        outcomes.push(outcomeName)
+        outcomeData.push({ name: outcomeName, percent })
+      })
+    }
+    
+    // Sort by probability
+    outcomeData.sort((a, b) => b.percent - a.percent)
+    
+    // Build prompt
+    let prompt = `Analyze this prediction market:\n\nQuestion: ${title}\n`
+    if (description) {
+      prompt += `Description: ${description}\n`
+    }
+    prompt += `Volume: $${volume.toLocaleString()}\n`
+    if (outcomeData.length > 0) {
+      prompt += `\nOutcomes (sorted by probability):\n`
+      outcomeData.forEach((o, index) => {
+        if (index === 0) {
+          prompt += `- ${o.name}: ${o.percent}% ⭐ HIGHEST/FAVORED\n`
+        } else {
+          prompt += `- ${o.name}: ${o.percent}%\n`
+        }
+      })
+      
+      // Explicitly tell AI which is favored
+      if (outcomeData.length > 0) {
+        prompt += `\n🎯 THE FAVORED OUTCOME IS: "${outcomeData[0].name}" at ${outcomeData[0].percent}%`
+      }
+    }
+    
+    return prompt
+  }
+
+  // Handle chat message with event ID lookup
+  const handleChatMessageWithId = async (messageText) => {
+    const trimmedMessage = messageText.trim()
+    if (!trimmedMessage) return null
+    
+    // Try to fetch event by ID
+    try {
+      const eventData = await fetchEventById(trimmedMessage)
+      if (eventData) {
+        // Format the event for AI
+        const prompt = formatEventForAI(eventData)
+        const displayText = trimmedMessage
+        
+        return {
+          prompt: prompt,
+          displayText: displayText
+        }
+      }
+    } catch (error) {
+      console.error('Error fetching event for chat:', error)
+    }
+    
+    return null
   }
 
   return (
@@ -1809,6 +1909,8 @@ function App() {
         eventDetailLoading={eventDetailLoading}
         selectedEvent={selectedEvent}
       />
+      
+      <Chat ref={chatRef} onFetchEventById={handleChatMessageWithId} />
     </div>
   )
 }
