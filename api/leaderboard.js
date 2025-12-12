@@ -25,7 +25,7 @@ export default async function handler(req, res) {
     const interval = intervalMap[timeframe] || 'ALL';
 
     // Fetch from Polymarket Data API
-    const polymarketUrl = `https://data-api.polymarket.com/leaderboard?timePeriod=${interval}`;
+    const polymarketUrl = `https://data-api.polymarket.com/v1/leaderboard?timePeriod=${interval}`;
     
     console.log('Fetching leaderboard from:', polymarketUrl);
 
