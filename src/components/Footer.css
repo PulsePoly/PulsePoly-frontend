@@ -238,10 +238,13 @@
 @media (max-width: 768px) {
   .footer {
     padding: 0.5rem 0;
+    z-index: 100;
   }
 
   .footer.expanded {
-    padding: 2.5rem 0 1.5rem;
+    padding: 2rem 0 1.25rem;
+    max-height: calc(100vh - 60px);
+    overflow-y: auto;
   }
 
   .footer-container {
@@ -250,29 +253,36 @@
 
   .footer-content {
     grid-template-columns: 1fr;
-    gap: 2rem;
+    gap: 1.5rem;
   }
 
   .footer-content.expanded {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
+    max-height: calc(100vh - 120px);
   }
 
   .footer-logo-image {
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
   }
 
   .footer-section h3 {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
   }
 
   .footer-section h4 {
-    font-size: 0.8125rem;
+    font-size: 0.75rem;
+    margin-bottom: 0.75rem;
   }
 
   .footer-section p,
   .footer-section ul li a {
-    font-size: 0.8125rem;
+    font-size: 0.75rem;
+  }
+
+  .footer-social-icons {
+    gap: 0.625rem;
+    margin-top: 0.75rem;
   }
 
   .footer-social-icon {
@@ -288,6 +298,88 @@
   .footer-social-icon-image {
     width: 18px;
     height: 18px;
+  }
+
+  .footer-bottom {
+    padding-top: 0.375rem;
+  }
+
+  .footer-bottom.expanded {
+    padding-top: 1rem;
+  }
+
+  .footer-bottom p {
+    font-size: 0.6875rem;
+    margin: 0.2rem 0;
+  }
+
+  .footer-bottom.expanded p {
+    font-size: 0.75rem;
+    margin: 0.375rem 0;
+  }
+
+  .footer-disclaimer {
+    font-size: 0.6875rem;
+  }
+
+  .footer-disclaimer.visible {
+    font-size: 0.75rem;
+    margin: 0.2rem 0 0 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 0.4rem 0;
+  }
+
+  .footer.expanded {
+    padding: 1.5rem 0 1rem;
+  }
+
+  .footer-container {
+    padding: 0 0.75rem;
+  }
+
+  .footer-content {
+    gap: 1.25rem;
+  }
+
+  .footer-content.expanded {
+    margin-bottom: 1.25rem;
+  }
+
+  .footer-logo-image {
+    width: 40px;
+    height: 40px;
+  }
+
+  .footer-section h3 {
+    font-size: 1rem;
+  }
+
+  .footer-section h4 {
+    font-size: 0.6875rem;
+  }
+
+  .footer-section p,
+  .footer-section ul li a {
+    font-size: 0.6875rem;
+  }
+
+  .footer-social-icon {
+    width: 28px;
+    height: 28px;
+  }
+
+  .footer-social-icon svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .footer-social-icon-image {
+    width: 16px;
+    height: 16px;
   }
 }
 

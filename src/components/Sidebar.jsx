@@ -81,6 +81,18 @@ function Sidebar({ categories, onCategoryClick, activeCategory, searchTerm, setS
 
   return (
     <>
+      {!isCollapsed && (
+        <div 
+          className="sidebar-overlay"
+          onClick={(e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            if (onToggleCollapse) {
+              onToggleCollapse();
+            }
+          }}
+        />
+      )}
       <button 
         className={`sidebar-toggle-button ${isCollapsed ? 'collapsed' : ''}`}
         onClick={(e) => {
