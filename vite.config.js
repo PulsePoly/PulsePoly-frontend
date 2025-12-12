@@ -7,6 +7,39 @@ export default defineConfig({
   server: {
     proxy: {
       // Important: more specific paths should be FIRST
+      '/api/leaderboard': {
+        target: 'https://data-api.polymarket.com',
+        changeOrigin: true,
+        rewrite: (path) => {
+          // Extract timeframe query param and map to timePeriod
+          const url = new URL(path, 'http://localhost');
+          const timeframe = url.searchParams.get('timeframe') || 'all';
+          const intervalMap = {
+            'all': 'ALL',
+            'month': 'MONTH',
+            'week': 'WEEK'
+          };
+          const interval = intervalMap[timeframe] || 'ALL';
+          return `/leaderboard?timePeriod=${interval}`;
+        },
+        configure: (proxy, _options) => {
+          proxy.on('error', (err, req, res) => {
+            console.error('❌ [VITE PROXY /api/leaderboard] Proxy error:', err.message);
+            console.error('   Request URL:', req.url);
+          });
+          
+          proxy.on('proxyReq', (proxyReq, req, res) => {
+            console.log('📤 [VITE PROXY /api/leaderboard] Sending request:');
+            console.log('   Method:', req.method);
+            console.log('   Original URL:', req.url);
+          });
+          
+          proxy.on('proxyRes', (proxyRes, req, res) => {
+            console.log('📥 [VITE PROXY /api/leaderboard] Received response:');
+            console.log('   Status:', proxyRes.statusCode, proxyRes.statusMessage);
+          });
+        },
+      },
       '/api/public-search': {
         target: 'https://gamma-api.polymarket.com',
         changeOrigin: true,

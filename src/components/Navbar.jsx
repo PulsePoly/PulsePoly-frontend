@@ -3,7 +3,7 @@ import './Navbar.css'
 import PulseLogo from '../../assets/pulse.png'
 import PumpLogo from '../../assets/pump.png'
 
-function Navbar({ onLogoClick }) {
+function Navbar({ onLogoClick, onLeaderboardClick }) {
   const [isScrolled, setIsScrolled] = useState(false)
   const [copied, setCopied] = useState(false)
   
@@ -42,6 +42,9 @@ function Navbar({ onLogoClick }) {
         <div className="navbar-nav-links">
           <a href="#" onClick={(e) => { e.preventDefault(); onLogoClick(); }} className="navbar-nav-link">
             Home
+          </a>
+          <a href="#" onClick={(e) => { e.preventDefault(); onLeaderboardClick(); }} className="navbar-nav-link">
+            Leaderboard
           </a>
           <a href="https://polymarket.com" target="_blank" rel="noopener noreferrer" className="navbar-nav-link">
             Polymarket

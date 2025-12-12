@@ -6,6 +6,7 @@ import Sidebar from './components/Sidebar'
 import EventDetail from './components/EventDetail'
 import LightPillar from './components/LightPillar'
 import Chat from './components/Chat'
+import TopTraders from './components/TopTraders'
 
 // Import SVG icons from assets
 import SportsIcon from '../assets/sport-16-regular.svg'
@@ -877,6 +878,18 @@ function App() {
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
+  const handleLeaderboardClick = () => {
+    setCurrentView('leaderboard')
+    setActiveCategory(null)
+    setSearchTerm('')
+    setEvents([])
+    setError(null)
+    setCurrentPage(1)
+    setHasMore(false)
+    // Scroll to top of the document
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+
   // Format event data for AI analysis
   const formatEventForAI = (event) => {
     const title = event.question || event.title || 'Unknown event'
@@ -961,7 +974,7 @@ function App() {
 
   return (
     <div className="app">
-      <Navbar onLogoClick={handleLogoClick} />
+      <Navbar onLogoClick={handleLogoClick} onLeaderboardClick={handleLeaderboardClick} />
       
       <div className={`app-main ${sidebarCollapsed ? 'sidebar-collapsed' : ''}`}>
       <LightPillar
@@ -1892,17 +1905,21 @@ function App() {
           </div>
         )}
 
-        {!loading && !error && events.length === 0 && searchTerm && (
+          {!loading && !error && events.length === 0 && searchTerm && (
           <div className="no-results">
             Events not found. Try another search query.
           </div>
         )}
             </>
           )}
+
+          {currentView === 'leaderboard' && (
+            <TopTraders />
+          )}
         </div>
       </div>
       
-      <Footer 
+      <Footer
         currentView={currentView}
         loading={loading}
         loadingMore={loadingMore}
